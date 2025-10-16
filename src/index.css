@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.473);
+    z-index: 100;   
+    border-bottom: 1px solid rgba(255, 255, 255, 0.911);
+}
+
+nav ul{
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    list-style: none;
+}
+
+#title{
+    font-family: fantasy;
+    font-size: 34px;
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+nav ul li a{
+    color: rgba(31, 29, 29, 0.705);
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    padding: 10px 23px;
+    margin: 22px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a .active, a:hover{
+    color: rgb(43, 220, 243) !important;
+}
+
+#home{
+ 
+    background-image: url("https://acf.goodnovel.com/seo/resources/202306/cover-DXWf5M3yTX.jpg") ;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home p{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+#home{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    margin-top: 450px;
+    line-height: 1.6;
+}
+
