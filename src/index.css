@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgba(245, 218, 185, 0.221);
 }
 
 code {
@@ -47,47 +48,70 @@ nav ul li{
     font-size: 34px;
     text-decoration: none;
     color: rgb(3, 3, 3);
+    margin-left: 21px;
+    margin-right: 20px;
 }
 
 nav ul li a{
     color: rgba(31, 29, 29, 0.705);
     font-family: 'Times New Roman';
     font-size: 18px;
-    padding: 10px 23px;
-    margin: 22px 12px;
+    padding: 23px;
+    margin: 16px 10px;
     border-radius: 4px;
     text-decoration: none;
     text-transform: uppercase;
 }
 a .active, a:hover{
-    color: rgb(43, 220, 243) !important;
+    background-color: rgba(192, 190, 190, 0.559);
+    color: white;
+
 }
 
-#home{
- 
-    background-image: url("https://acf.goodnovel.com/seo/resources/202306/cover-DXWf5M3yTX.jpg") ;
+#bg{
+      background-image: url("https://media.istockphoto.com/id/929904308/photo/bouquet-at-the-beach.jpg?s=612x612&w=0&k=20&c=wKztFI2bKpRJ6kB6wmn4sLcSquz7cV6wxSHFmlRV2p8=") ;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#home p{
+#bg p{
     color: white;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
 }
-#home{
+#bg{
     margin-top: 0px;
     display: flex;
     flex-direction: column;
 }
-.para{
-    margin-top: 450px;
+#p1{
+    margin-top: 350px;
     line-height: 1.6;
 }
+ .para #p1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #f5c89ac0;
+}
+
+.p2{
+    font-size: 35px;
+    color: #f5c89ae4;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+.p3{
+    font-size: 27px;
+    color: #0e0e0ea9;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 
