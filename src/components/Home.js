@@ -12,32 +12,38 @@ function Home() {
         <>
           {/* intro */}
           <div>
-            <p className='p2' style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
-      fontSize: '40px' }}>AWARD WINNING PHOTOGRAPHY</p>
+            <p className='p2 mt-4' style={{
+              marginBottom: '10px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman', marginTop: '30px',
+              fontSize: '40px'
+            }}>AWARD WINNING PHOTOGRAPHY</p>
             <p className='p3'>Showcasing your big day in a memorable and unforgettable way.</p>
           </div>
         </>
 
         {/* profile */}
         <div class="container">
-          <div class="row" id='about'> 
+          <div class="row" id='about'>
             <div class="col-md-6" >
               <img src="https://i.pinimg.com/474x/cb/f9/58/cbf958a59f2950ad7bc211ce50961166.jpg" alt="Teja Kutchula" className='profile' />
             </div>
             <div class="col-md-6">
-              <p className='p2' style={{ color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
-      fontSize: '40px' }}>Hello , My name is Teja</p>
-              <p className='p4'>a wedding photographer passionate about capturing love stories  in their most natural and beautiful moments.
-                I believe every wedding is unique, and my goal is to create timeless images that reflect genuine emotions, laughter, and the little details that make your day truly yours. With a blend of candid and creative photography, I strive to turn your special moments into lasting memories.</p>
+              <p className='p2' style={{
+                color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
+                fontSize: '40px'
+              }}>Hello , My name is Teja</p>
+              <p className='p4'>a wedding photographer passionate about capturing love stories <br />  in their most natural and beautiful moments.
+                I believe every wedding <br /> is unique, and my goal is to create timeless images that reflect genuine <br /> emotions,   laughter, and the little details that make your day truly yours. <br /> With a blend of candid and creative photography, I strive to turn your <br /> special moments into lasting memories.</p>
             </div>
-           
+
           </div>
         </div>
 
         {/* services */}
         <section id="projects" class="container my-5">
-          <h2 class="text-center mb-4" style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
-      fontSize: '40px' }}>services</h2>
+          <h2 class="text-center mb-4" style={{
+            marginBottom: '30px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
+            fontSize: '40px'
+          }}>services</h2>
           <div class="row row d-flex align-items-stretch" id="services">
             {/* Engagement */}
             <div class="col-md-3 col-lg-3">
@@ -102,49 +108,47 @@ function Home() {
 
         {/* Albums */}
         <section id="skills" class="container my-5">
-          <h2 class="text-center mb-4" style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
-      fontSize: '40px' }}>Albums</h2>
-          <div class="row row d-flex align-items-stretch">
+          <h2 class="text-center mb-4" style={{
+            marginBottom: '30px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
+            fontSize: '40px'
+          }}>Albums</h2>
+          <div class="row row d-flex align-items-stretch" id='album'>
             {/* Album 1 */}
-            
-          </div>
-        </section>
-
-        {/* Additional Content */}
-        {/* <section className="container my-5">
-          <h2 className="text-center mb-4" style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
-      fontSize: '40px' }}>Contact Me</h2>
-          <div style={{  marginRight: '50px', marginBottom:'20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div id="contact" >
-              <div class="row justify-content-center " >
-                <div class="col-md-8">
-                  <form className='contact-form m-60 p-4 rounded' id='from'>
-                    <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="Your Name" required />
-                    </div>
-                    <div class="mb-3">
-                      <input type="email" class="form-control" placeholder="Your Email" required />
-                    </div>
-                    <div class="mb-3">
-                      <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary w-100" style={{ marginTop: '10px' }}>Send Message</button>
-                  </form>
-                  <div class="text-center mt-3 contact-info">
-                    <p>Email: <a href="mailto:tejakutchula@gmail.com">tejakutchula@gmail.com</a></p>
-                    <p style={{ padding: '10px', paddingRight: '100px', }}>Phone: <a href="tel:+916302233031">6302233031</a></p>
-                    <p style={{ paddingRight: '50px', }}>Location: <a href="https://www.google.com/maps/place/Visakhapatnam">Visakhapatnam</a></p>
-                  </div>
-                </div>
+            <div class="col-md-4 col-lg-4">
+              <div class=" text-center " >
+                <img />
+                <h5>Album 1</h5>
+                <p>Capturing timeless moments of love and joy in this beautiful wedding album.</p>
               </div>
-              <div>
-                <img
-                  src="https://i.pinimg.com/236x/bd/ff/58/bdff580478e4f79e59b31a2b50621356.jpg"
-                  alt="Project 1" className='img' />
+            </div>
+            {/* Album 2 */}
+
+            <div class="col-md-4 col-lg-4">
+              <div class=" text-center">
+                <img />
+                <h5>Album 2</h5>
+                <p>A collection of cherished memories from a special wedding day.</p>
+              </div>
+            </div>
+            {/* Album 3 */}
+            <div class="col-md-4 col-lg-4">
+              <div class=" text-center">
+                <img />
+                <h5>Album 3</h5>
+                <p>A visual journey through the magical moments of a wedding celebration.</p>
+              </div>
+            </div>
+            {/* Album 4 */}
+            <div class="col-md-4 col-lg-4">
+              <div class=" text-center">
+                <img />
+                <h5>Album 3</h5>
+                <p>A visual journey through the magical moments of a wedding celebration.</p>
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
+
       </section>
     </div>
   )
