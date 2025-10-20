@@ -12,31 +12,35 @@ function Home() {
         <>
           {/* intro */}
           <div>
-            <p className='p2'>AWARD WINNING PHOTOGRAPHY</p>
+            <p className='p2' style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
+      fontSize: '40px' }}>AWARD WINNING PHOTOGRAPHY</p>
             <p className='p3'>Showcasing your big day in a memorable and unforgettable way.</p>
           </div>
         </>
 
         {/* profile */}
         <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <p className='p2'>HELLO , MY NAME IS TEJA</p>
-              <p className='p4'>a wedding photographer passionate about capturing love stories <br /> in their most natural and beautiful moments.
-                I believe every wedding is unique,<br /> and my goal is to create timeless images <br />that reflect genuine emotions, laughter, and the little details <br />that make your day truly yours. With a blend of candid and creative photography,<br /> I strive to turn your special moments into lasting memories.</p>
-            </div>
-            <div class="col-md-6">
+          <div class="row" id='about'> 
+            <div class="col-md-6" >
               <img src="https://i.pinimg.com/474x/cb/f9/58/cbf958a59f2950ad7bc211ce50961166.jpg" alt="Teja Kutchula" className='profile' />
             </div>
+            <div class="col-md-6">
+              <p className='p2' style={{ color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
+      fontSize: '40px' }}>Hello , My name is Teja</p>
+              <p className='p4'>a wedding photographer passionate about capturing love stories  in their most natural and beautiful moments.
+                I believe every wedding is unique, and my goal is to create timeless images that reflect genuine emotions, laughter, and the little details that make your day truly yours. With a blend of candid and creative photography, I strive to turn your special moments into lasting memories.</p>
+            </div>
+           
           </div>
         </div>
 
         {/* services */}
         <section id="projects" class="container my-5">
-          <h2 class="text-center mb-4">services</h2>
-          <div class="row row d-flex align-items-stretch">
+          <h2 class="text-center mb-4" style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
+      fontSize: '40px' }}>services</h2>
+          <div class="row row d-flex align-items-stretch" id="services">
             {/* Engagement */}
-            <div class="col-md- col-lg-3">
+            <div class="col-md-3 col-lg-3">
               <div class="skills-card text-center ">
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0cKaRI7M9mPEygZjZJBk9anNXCjlbviKhXCJPsd0YWlnnZhUt6bo3HGM_sEuZhjyBi0&usqp=CAU"
@@ -98,15 +102,18 @@ function Home() {
 
         {/* Albums */}
         <section id="skills" class="container my-5">
-          <h2 class="text-center mb-4">Albums</h2>
+          <h2 class="text-center mb-4" style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
+      fontSize: '40px' }}>Albums</h2>
           <div class="row row d-flex align-items-stretch">
             {/* Album 1 */}
+            
           </div>
         </section>
 
         {/* Additional Content */}
         <section className="container my-5">
-          <h2 className="text-center mb-4" style={{ marginBottom: '30px' }}>Contact Me</h2>
+          <h2 className="text-center mb-4" style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
+      fontSize: '40px' }}>Contact Me</h2>
           <div style={{  marginRight: '50px', marginBottom:'20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div id="contact" >
               <div class="row justify-content-center " >
