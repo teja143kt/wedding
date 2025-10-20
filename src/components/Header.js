@@ -1,27 +1,22 @@
 import React from 'react'
-// import { TiThMenu } from "react-icons/ti";
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <div>
       {/* <!-- Navbar --> */}
-      <nav className="navbar navbar-expand-lg fixed-top glass-navbar" id='navbar'>
-        <div className="container">
-          <a className="navbar-brand" href="#home" id='title'>Wedding Photography</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item"><a className="nav-link" href="#home">Home</a></li>
-              <li className="nav-item"><a className="nav-link" href="#about">About Me</a></li>
-              <li className="nav-item"><a className="nav-link" href="#services">Services</a></li>
-              <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-            </ul>
-          </div>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-info text-white " id='navbar'>
+      <div class="container-fluid">
+        <h1>Wedding photography</h1>
+        <div className=''>
+          <Link to="/home" className='m-3 text-decoration-none text-white font-weight-bold fs-5'>Home</Link>
+          <Link to="/about" className='m-3 text-decoration-none text-white font-weight-bold fs-5'>About</Link>
+          <Link to="/services" className='m-3 text-decoration-none text-white font-weight-bold fs-5'>Services</Link>
+          <Link to="/albums" className='m-3 text-decoration-none text-white font-weight-bold fs-5'>Albums</Link>
+          <Link to="/contact" className='m-3 text-decoration-none text-white font-weight-bold fs-5'>Contact</Link>
         </div>
-      </nav>
-
+      </div>
+    </nav>
     </div>
   )
 }

@@ -111,7 +111,7 @@ function Home() {
         </section>
 
         {/* Additional Content */}
-        <section className="container my-5">
+        {/* <section className="container my-5">
           <h2 className="text-center mb-4" style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
       fontSize: '40px' }}>Contact Me</h2>
           <div style={{  marginRight: '50px', marginBottom:'20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -144,7 +144,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </section>
     </div>
   )
