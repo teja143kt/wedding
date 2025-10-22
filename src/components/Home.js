@@ -24,7 +24,7 @@ function Home() {
         <div class="container">
           <div class="row" id='about'>
             <div class="col-md-6" >
-              <img src="https://i.pinimg.com/474x/cb/f9/58/cbf958a59f2950ad7bc211ce50961166.jpg" alt="Teja Kutchula" className='profile' />
+              <img src="https://i.pinimg.com/474x/cb/f9/58/cbf958a59f2950ad7bc211ce50961166.jpg" alt="profile" className='profile' />
             </div>
             <div class="col-md-6">
               <p className='p2' style={{
