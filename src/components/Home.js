@@ -44,9 +44,9 @@ function Home() {
             marginBottom: '30px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
             fontSize: '40px'
           }}>services</h2>
-          <div class="row row d-flex align-items-stretch" id="services">
+          <div class="row row d-flex align-items-stretch" id="services" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
             {/* Engagement */}
-            <div class="col-md-3 col-lg-3">
+            <div class="col-md-3 col-lg-3" style={{marginLeft:"80px"}}>
               <div class="skills-card text-center ">
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0cKaRI7M9mPEygZjZJBk9anNXCjlbviKhXCJPsd0YWlnnZhUt6bo3HGM_sEuZhjyBi0&usqp=CAU"
@@ -56,7 +56,7 @@ function Home() {
               </div>
             </div>
             {/* <!-- puja --> */}
-            <div class="col-md-3 col-lg-3">
+            <div class="col-md-3 col-lg-3" style={{marginLeft:"60px"}}>
               <div class="skills-card text-center">
                 <img src="https://vedicbridge.com/wp-content/uploads/2025/08/Marriage-puja.jpg" alt="Project 2"
                   class="img-fluid rounded mb-3" />
@@ -65,7 +65,7 @@ function Home() {
               </div>
             </div>
             {/* <!-- haldi --> */}
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3" style={{marginLeft:"20px"}}>
               <div class="skills-card text-center">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMGk-PYlYGTkR9EYqCBZRdzGOagKbMLdhX-LUhE3w6Zu_Ht4wDtDCZLCfqu2FOJuqpDI&usqp=CAU"
                   alt="Project 3" class="img-fluid rounded mb-3" />
@@ -74,7 +74,7 @@ function Home() {
               </div>
             </div>
             {/* <!-- marriage --> */}
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3" style={{marginLeft:"80px"}}>
               <div class="skills-card text-center">
                 <img
                   src="https://tamil.cdn.zeenews.com/tamil/sites/default/files/2018/03/24/127886-hindu-wedding.jpg"
@@ -84,7 +84,7 @@ function Home() {
               </div>
             </div>
             {/* <!-- Griha Pravesh --> */}
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3" style={{marginLeft:"60px"}}>
               <div class="skills-card text-center">
                 <img
                   src="https://miro.medium.com/v2/1*9FwzVTA8yKYy3oxCmWI6XA.jpeg"
@@ -94,7 +94,7 @@ function Home() {
               </div>
             </div>
             {/* <!-- reception --> */}
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3" style={{marginLeft:"20px"}}>
               <div class="skills-card text-center">
                 <img
                   src="https://i.pinimg.com/736x/bb/72/09/bb72090d075472991190dce58a67f967.jpg"
@@ -116,7 +116,7 @@ function Home() {
             {/* Album 1 */}
             <div class="col-md-4 col-lg-4">
               <div class=" text-center " >
-                <img />
+                {/* <img /> */}
                 <h5>Album 1</h5>
                 <p>Capturing timeless moments of love and joy in this beautiful wedding album.</p>
               </div>
@@ -125,7 +125,7 @@ function Home() {
 
             <div class="col-md-4 col-lg-4">
               <div class=" text-center">
-                <img />
+                {/* <img /> */}
                 <h5>Album 2</h5>
                 <p>A collection of cherished memories from a special wedding day.</p>
               </div>
@@ -133,7 +133,7 @@ function Home() {
             {/* Album 3 */}
             <div class="col-md-4 col-lg-4">
               <div class=" text-center">
-                <img />
+                {/* <img /> */}
                 <h5>Album 3</h5>
                 <p>A visual journey through the magical moments of a wedding celebration.</p>
               </div>
@@ -141,7 +141,7 @@ function Home() {
             {/* Album 4 */}
             <div class="col-md-4 col-lg-4">
               <div class=" text-center">
-                <img />
+                {/* <img /> */}
                 <h5>Album 3</h5>
                 <p>A visual journey through the magical moments of a wedding celebration.</p>
               </div>

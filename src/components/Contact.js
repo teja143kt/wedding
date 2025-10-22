@@ -5,8 +5,10 @@ function Contact() {
     <div>
         {/* Contact Section */}
         <section className="container my-5">
-          <h2 className="text-center mb-4" style={{ marginBottom: '30px' ,  color: 'rgba(234, 175, 115, 0.9)',fontFamily: 'Times New Roman',
-      fontSize: '40px' }}>Contact Me</h2>
+          <div><p className="text-center mb-4" style={{ marginBottom: '30px' ,  color: 'rgba(239, 181, 119, 0.77)',fontFamily: 'Times New Roman',
+      fontSize: '40px' ,marginTop: '100px' }}>Contact Me</p>
+        <p className="mb-3"  style={{marginBottom:'30px',fontSize:'20px'}}>From the first look to the last dance — I’m here to capture it all. <br /> Contact me and let’s begin your story.</p>
+      </div>
           <div style={{  marginRight: '50px', marginBottom:'20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div id="contact" >
               <div class="row justify-content-center " >

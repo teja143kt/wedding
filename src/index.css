@@ -128,9 +128,8 @@ code {
     border: 4px solid #dfd6d6;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.475);
 }
-
     /* services */
-    #services{
+    #skills{
       margin-top: 50px;
       display: flex;
       flex-direction: row;
@@ -273,3 +272,13 @@ code {
       font-size: 18px;
       text-decoration: none;
     }
+
+    /* about section */
+    .img-fluid{
+      width: 350px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 20px;
+    }
+    
