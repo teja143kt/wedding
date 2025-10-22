@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 // import Aboutus from './components/Aboutus';
 import Services from './components/Services'; 
-// import Albums from './components/Albums'
+import Albums from './components/Albums'
 import Footer from './components/Footer';
 // import Contact from './components/Contact';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
