@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Aboutus from './components/Aboutus';
+import Services from './components/Services'; 
 import Albums from './components/Albums'
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/aboutus' element={<Aboutus />} />
+          <Route path='/services' element={<Services/>}/>
           <Route path='/albums' element={<Albums/>}/>
           <Route path='/contact' element={<Contact />} />
         </Routes>

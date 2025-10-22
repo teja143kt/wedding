@@ -1,3 +1,4 @@
+import { hover } from '@testing-library/user-event/dist/hover'
 import React from 'react'
 
 function Home() {
@@ -111,10 +112,10 @@ function Home() {
         {/* Albums */}
         <div>
           <h2 class="text-center mb-4" style={{
-            marginTop: '20px', marginBottom: '10px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
+            marginTop: '20px', marginBottom: '20px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
             fontSize: '40px'
           }}>Albums</h2>
-          <p style={{ marginBottom: '30px' }}>Ready to preserve your special day in a timeless wedding album? Contact us today <br /> to book your session, and let’s create memories that you’ll cherish forever.</p>
+          <p >Ready to preserve your special day in a timeless wedding album? Contact us today <br /> to book your session, and let’s create memories that you’ll cherish forever.</p>
           <div style={{ marginRight: '50px', marginBottom: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div id="album" >
               <div style={{marginBottom:'30px'}} >
@@ -128,7 +129,7 @@ function Home() {
                 <img style={{height:'420px', marginBottom:'10px'}}
                   src="https://i.pinimg.com/originals/37/2a/f8/372af84252aebd81617686732fafc2dc.jpg"
                   alt="Project 1" className='img' />
-                <a href='http://localhost:3001/albums' style={{ fontFamily:'cursive',fontSize:'20px', textDecoration:'none'}}>View all...</a>
+                <a href='http://localhost:3001/albums' className='a' style={{ fontFamily:'cursive',fontSize:'20px', textDecoration:'none', }}>View all...</a>
               </div>
               <div style={{marginBottom:'30px'}}>
                 <img

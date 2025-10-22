@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
   return (
@@ -11,6 +12,7 @@ function Header() {
         <h1>Wedding photography</h1>
         </div>
         <div className=' links' style={{marginTop:'20px'}} >
+          <GiHamburgerMenu />
           <Link to="/home" className='m-3 text-decoration-none text-white font-weight-bold fs-5' style={{color:'black'}}>Home</Link>
           <Link to="/aboutus" className='m-3 text-decoration-none text-white font-weight-bold fs-5' style={{color:'black'}}>Aboutus</Link>
           <Link to="/services" className='m-3 text-decoration-none text-white font-weight-bold fs-5' style={{color:'black'}}>Services</Link>
