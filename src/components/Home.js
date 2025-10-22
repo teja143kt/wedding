@@ -1,4 +1,4 @@
-import { hover } from '@testing-library/user-event/dist/hover'
+
 import React from 'react'
 
 function Home() {
@@ -129,7 +129,7 @@ function Home() {
                 <img style={{height:'420px', marginBottom:'10px'}}
                   src="https://i.pinimg.com/originals/37/2a/f8/372af84252aebd81617686732fafc2dc.jpg"
                   alt="Project 1" className='img' />
-                <a href='http://localhost:3001/albums' className='a' style={{ fontFamily:'cursive',fontSize:'20px', textDecoration:'none', }}>View all...</a>
+                <a href='http://localhost:3000/albums' className='a' style={{ fontFamily:'cursive',fontSize:'20px', textDecoration:'none', }}>View all...</a>
               </div>
               <div style={{marginBottom:'30px'}}>
                 <img

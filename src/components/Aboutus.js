@@ -47,7 +47,7 @@ function Aboutus() {
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
-                            ></iframe>
+                            />
                            <p style={{marginTop:'80px' , marginLeft:'60px'}}>A beautiful wedding film capturing the essence of an Indian wedding, <br/> showcasing the vibrant colors,  joyful celebrations, and heartfelt <br/> moments shared by the couple and their loved ones.</p> 
                         </div>
                     </div>
@@ -58,7 +58,8 @@ function Aboutus() {
                                 style={{ borderRadius:'20px' , boxShadow:'0px 10px 20px'}}
                                 width="560"
                                 height="315"
-                                src="https://www.youtube.com/embed/CGC1_bhypkU" allowFullScreen></iframe>
+                                title="wedding photos"
+                                src="https://www.youtube.com/embed/CGC1_bhypkU" allowFullScreen/>
                         </div>
                     </div>
                 </div>
