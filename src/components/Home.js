@@ -110,7 +110,7 @@ function Home() {
         </section>
 
         {/* Albums */}
-        <div>
+        {/* <div>
           <h2 class="text-center mb-4" style={{
             marginTop: '20px', marginBottom: '20px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
             fontSize: '40px'
@@ -140,7 +140,7 @@ function Home() {
 
             </div>
           </div>
-        </div>
+        </div> */}
 
       </section>
     </div>
