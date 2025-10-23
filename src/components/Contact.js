@@ -28,10 +28,10 @@ function Contact() {
                   <button type="submit" class="btn btn-primary " >Send Message</button>
                 </form>
               </div>
-               <div class="text">
-                  <p className='social'>Email: <a href="tejakutchual@gmail.com">tejakutchula@gmail.com</a></p>
-                  <p className='social'>Phone: <a href="tel:+916302233031">6302233031</a></p>
-                  <p className='social'>Location: <a href="https://www.google.com/maps/place/Visakhapatnam">Visakhapatnam</a></p>
+               <div className="text list-unstyled mt-3">
+                  <li className='m-2'>Email: <a href="tejakutchual@gmail.com" className='text-decoration-none'>tejakutchula@gmail.com</a></li>
+                  <li className='m-2'>Phone: <a href="tel:+916302233031" className='text-decoration-none'>6302233031</a></li>
+                  <li className='m-2'>Location: <a href="https://www.google.com/maps/place/Visakhapatnam" className='text-decoration-none'>Visakhapatnam</a></li>
                 </div>
             </div>
             <div>
