@@ -33,7 +33,7 @@ function Services() {
                 Our lens turns your special day into timeless memories filled with warmth and emotion.
                 We don’t just take photos — we preserve the feeling of “forever begins here.”
                 Let us frame your first step toward a lifetime of love and togetherness.</p>
-              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3001/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹25,000</a></p>
+              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3000/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹25,000</a></p>
             </div>
           </div>
 
@@ -48,7 +48,7 @@ function Services() {
                 fontSize: '40px'
               }}>Puja</p>
               <p className='p4 paragraph'>Every sacred ritual holds a story of faith, love, and togetherness. We capture the divine glow of every blessing, the soft smiles during prayers, and the heartfelt traditions that begin your wedding journey. Each frame reflects the purity of your bond and the warmth of your family’s love. Let us preserve these timeless moments of devotion beautifully.</p>
-              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3001/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹15,000</a></p>
+              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3000/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹15,000</a></p>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ function Services() {
                 From playful moments to emotional smiles, we freeze the essence of purity and happiness.
                 Our lens celebrates the glow of love, family, and new beginnings.
                 Let every Haldi frame radiate the warmth of your wedding journey.</p>
-              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3001/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹20,000</a></p>
+              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3000/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹20,000</a></p>
             </div>
           </div>
 
@@ -82,7 +82,7 @@ function Services() {
                 fontSize: '40px'
               }}>Marriage</p>
               <p className='p4 paragraph'>A wedding is not just a day — it’s a story of love, emotion, and unforgettable moments. We capture every smile, tear, and touch that defines your special day. Each photograph reflects the beauty of your bond and the joy of togetherness. Our passion is to turn your wedding memories into timeless art. Let us frame your love story — beautifully and forever.</p>
-              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3001/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹35,000</a></p>
+              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3000/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹35,000</a></p>
             </div>
           </div>
 
@@ -100,7 +100,7 @@ function Services() {
                 We capture the warmth, traditions, and smiles that fill every corner of your special day.
                 From sacred rituals to joyful laughter, every frame tells the story of new beginnings.
                 Let us preserve the love and blessings that make your Griha Pravesh truly unforgettable.</p>
-              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3001/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹15,000</a></p>
+              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3000/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹15,000</a></p>
             </div>
           </div>
 
@@ -119,7 +119,7 @@ function Services() {
                 From candid cheers to elegant portraits, each frame reflects the beauty of your union.
                 Our lens tells the story of love, light, and lasting memories that begin anew.
                 Let your grand celebration shine forever through our timeless photographs.</p>
-              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3001/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹30,000</a></p>
+              <p className='fs-3 ' style={{ fontFamily: 'Times New Roman', }}>Amount :<a href='http://localhost:3000/contact' style={{ textDecoration: 'none', color: 'rgba(234, 175, 115, 0.9)' }}> ₹30,000</a></p>
             </div>
           </div>
         </div>

@@ -28,7 +28,7 @@ function Contact() {
                   <button type="submit" class="btn btn-primary " >Send Message</button>
                 </form>
               </div>
-               <div class="text ">
+               <div class="text">
                   <p className='social'>Email: <a href="tejakutchual@gmail.com">tejakutchula@gmail.com</a></p>
                   <p className='social'>Phone: <a href="tel:+916302233031">6302233031</a></p>
                   <p className='social'>Location: <a href="https://www.google.com/maps/place/Visakhapatnam">Visakhapatnam</a></p>
