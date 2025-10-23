@@ -187,46 +187,27 @@ code {
   justify-content: center;
 }
 
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  margin-right: 50px;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #cccccc36;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
 #contact:hover {
   transform: translateY(-10px);
   box-shadow: #f5c799e4 0px 10px 20px;
   transition: all 0.3s ease;
 }
 
-.btn {
-  margin-right: 20px;
-  margin-left: 20px;
-  padding: 10px;
-  background: rgba(45, 192, 237, 0.998);
-  border-radius: 10px;
-  border: none;
-  color: white;
-}
 
 #from {
-  margin-right: 20px;
-  margin-left: 20px;
+  width: 260px;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.263);
+  background: rgba(240, 239, 237, 0.927);
   border-radius: 10px;
-  margin-bottom: 20px;
+}
+
+.text{
+  text-align: left;
 }
 
 .contact-info a {
   color: #26a5cb;
   text-decoration: none;
-  flex-direction: column;
 }
 
 .contact-info a:hover {
@@ -234,6 +215,7 @@ code {
 }
 
 .img {
+  height: 440px;
   width: 280px;
   border-radius: 10px;
 }
@@ -284,7 +266,7 @@ code {
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 /* home albums */
@@ -319,7 +301,12 @@ a:hover {
   height: 280px;
   border-radius: 20px;
   margin-top: 10px;
-  margin-right: 150px;
+  margin-left: 30px;
+  margin-right: 50px;
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.475);
+}
+
+.paragraph{
+  margin-right: 80px;
 }

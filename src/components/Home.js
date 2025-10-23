@@ -32,8 +32,8 @@ function Home() {
                 color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
                 fontSize: '40px'
               }}>Hello , My name is Teja</p>
-              <p className='p4'>a wedding photographer passionate about capturing love stories <br />  in their most natural and beautiful moments.
-                I believe every wedding <br /> is unique, and my goal is to create timeless images that reflect genuine <br /> emotions,   laughter, and the little details that make your day truly yours. <br /> With a blend of candid and creative photography, I strive to turn your <br /> special moments into lasting memories.</p>
+              <p className='p4'>A wedding photographer passionate about capturing love stories   in their most natural and beautiful moments.
+                I believe every wedding  is unique, and my goal is to create timeless images that reflect genuine  emotions,   laughter, and the little details that make your day truly yours.  With a blend of candid and creative photography, I strive to turn your  special moments into lasting memories.</p>
             </div>
 
           </div>
@@ -54,7 +54,7 @@ function Home() {
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0cKaRI7M9mPEygZjZJBk9anNXCjlbviKhXCJPsd0YWlnnZhUt6bo3HGM_sEuZhjyBi0&usqp=CAU"
                   alt="Project 1" class="img-fluid rounded mb-3" />
-                <h2 style={{color:'#fac38bf3'}}>Engagement</h2>
+                <h3 style={{color:'#fac38bf3'}}>Engagement</h3>
                 <p>“Through my lens, I capture not just moments — but emotions that last a lifetime.”</p>
               </div>
             </div>
@@ -63,7 +63,7 @@ function Home() {
               <div class="skills-card text-center">
                 <img src="https://vedicbridge.com/wp-content/uploads/2025/08/Marriage-puja.jpg" alt="Project 2"
                   class="img-fluid rounded mb-3" />
-                <h2 style={{color:'#fac38bf3'}}>Puja Ceremony</h2>
+                <h3 style={{color:'#fac38bf3'}}>Puja Ceremony</h3>
                 <p>Capturing the essence of love and commitment during the puja ceremony.</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ function Home() {
               <div class="skills-card text-center">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMGk-PYlYGTkR9EYqCBZRdzGOagKbMLdhX-LUhE3w6Zu_Ht4wDtDCZLCfqu2FOJuqpDI&usqp=CAU"
                   alt="Project 3" class="img-fluid rounded mb-3" />
-                <h2 style={{color:'#fac38bf3'}}>Haldi Ceremony</h2>
+                <h3 style={{color:'#fac38bf3'}}>Haldi Ceremony</h3>
                 <p>Celebrating the joyous haldi ceremony with vibrant colors and emotions.</p>
               </div>
             </div>
@@ -82,8 +82,8 @@ function Home() {
                 <img
                   src="https://tamil.cdn.zeenews.com/tamil/sites/default/files/2018/03/24/127886-hindu-wedding.jpg"
                   alt="Project 4" class="img-fluid rounded mb-3" />
-                <h2 style={{color:'#fac38bf3'}}>Marriage Ceremony</h2>
-                <p>Capturing the sacred moments of the marriage ceremony with elegance and grace.</p>
+                <h3 style={{color:'#fac38bf3'}}>Marriage </h3>
+                <p>Capturing the moments of the marriage ceremony with elegance and grace.</p>
               </div>
             </div>
             {/* <!-- Griha Pravesh --> */}
@@ -92,7 +92,7 @@ function Home() {
                 <img
                   src="https://miro.medium.com/v2/1*9FwzVTA8yKYy3oxCmWI6XA.jpeg"
                   alt="Project 5" class="img-fluid rounded mb-3" />
-                <h2 style={{color:'#fac38bf3'}}>Gruha Pravesh</h2>
+                <h3 style={{color:'#fac38bf3'}}>Gruha Pravesh</h3>
                 <p>Capturing the beautiful moments of the Gruha Pravesh ceremony.</p>
               </div>
             </div>
@@ -102,7 +102,7 @@ function Home() {
                 <img
                   src="https://i.pinimg.com/736x/bb/72/09/bb72090d075472991190dce58a67f967.jpg"
                   alt="Project 6" class="img-fluid rounded mb-3" />
-                <h2 style={{color:'#fac38bf3'}}>reception</h2>
+                <h3 style={{color:'#fac38bf3'}}>reception</h3>
                 <p>Capturing the joyous moments of the wedding reception with elegance and style.</p>
               </div>
             </div>
@@ -110,7 +110,7 @@ function Home() {
         </section>
 
         {/* Albums */}
-        {/* <div>
+        <div>
           <h2 class="text-center mb-4" style={{
             marginTop: '20px', marginBottom: '20px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
             fontSize: '40px'
@@ -140,7 +140,7 @@ function Home() {
 
             </div>
           </div>
-        </div> */}
+        </div>
 
       </section>
     </div>

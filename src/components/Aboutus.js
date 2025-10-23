@@ -10,15 +10,15 @@ function Aboutus() {
                     fontSize: '40px', marginTop: '100px'
                 }}> AboutUs</p>
                 </div>
-                <div class="row">
-                    <div class="col-md-6" style={{ marginBottom: '30px' }}>
+                <div >
+                    <div class="col-md-12" style={{ marginBottom: '30px' }}>
                         <h3 style={{ marginBottom: '20px' }}>Wedding Photography</h3>
                         <p>Welcome to Twogether Studios! We are a boutique Candid Wedding Photography Studio based in New Delhi, India and are known for a fun, off-beat and modern approach to creating stories from the best day in your life. Led by Arjun & Praerna Kartha, we started photographing Indian weddings in 2008, and since then have created hundreds of unique love stories across the world. We are passionate, hard-working and an incredibly motivated team; we love Indian weddings, and can’t wait to be a part of yours!</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <h3 style={{ marginBottom: '20px' }}>Wedding Photography Showcase</h3>
                         <p>Our wedding photography style is modern, contemporary and off-beat. A short selection of some of our favourites is given below. To see more of our work, check out the full showcase or see our real Indian wedding photography stories! </p>
-                        <div class="col-md-6" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px', }}>
+                        <div class="col-md-12" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
                             <div className='container aboutimg'><img src="https://arjunkarthaphotography.com/wp-content/uploads/2021/08/Twogether-Studios-Showcase-Home-2021-1.jpg" alt="About Us" class="images rounded" /></div>
                             <div className='container aboutimg'><img src="https://arjunkarthaphotography.com/wp-content/uploads/2021/08/Twogether-Studios-Showcase-Home-2021-2-768x768.jpg" alt="About Us" class="images rounded" /></div>
                             <div className='container aboutimg'><img src="https://arjunkarthaphotography.com/wp-content/uploads/2021/08/Twogether-Studios-Showcase-Home-2021-3-768x768.jpg" alt="About Us" class="images rounded" /></div>
@@ -37,7 +37,7 @@ function Aboutus() {
                         <h3 style={{ marginBottom: '20px' }}>Indian Wedding Videos</h3>
                         <p>Just like wedding photography, Indian Wedding Movies have transformed from simple coverage into thematic documentary style wedding films. Our wedding movies are simple stories that tell the tale of your wedding, filmed in our inimitable fun and off-beat style. Using the very latest and best technology available, our wedding films are tailor made for your big day and perfectly complement your wedding photos. Every wedding film is tailor made to your story, a few examples of which are below.</p>
                     </div>
-                    <div class="col-md-6 video1">
+                    <div class="col-md-12 video1">
                         <div class="embed-responsive embed-responsive-16by9 mb-4" style={{display:'flex', flexDirection:'row'}}>
                             <iframe
                                 style={{ borderRadius:'20px' , boxShadow:'0px 10px 20px'}}
@@ -48,12 +48,12 @@ function Aboutus() {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
                             />
-                           <p style={{marginTop:'80px' , marginLeft:'60px'}}>A beautiful wedding film capturing the essence of an Indian wedding, <br/> showcasing the vibrant colors,  joyful celebrations, and heartfelt <br/> moments shared by the couple and their loved ones.</p> 
+                           <p style={{marginTop:'80px' , marginLeft:'60px'}}>A beautiful wedding film capturing the essence of an Indian <br/> wedding,  showcasing the vibrant colors,  joyful celebrations, <br/> and heartfelt  moments shared by the couple and their loved ones.</p> 
                         </div>
                     </div>
                     <div class="col-md-12 video2" >
                         <div class="embed-responsive embed-responsive-16by9 mb-4" style={{ display:'flex', flexDirection:'row'}} >
-                            <p style={{ marginRight:'80px',marginTop:'80px'}}>A beautiful wedding film capturing the essence of an Indian wedding, <br/> showcasing the vibrant colors,  joyful celebrations, and heartfelt <br/> moments shared by the couple and their loved ones.</p>
+                            <p style={{ marginRight:'80px',marginTop:'80px'}}>A beautiful wedding film capturing the essence of an Indian <br/>  wedding, showcasing the vibrant colors,  joyful celebrations, <br/> and heartfelt  moments shared by the couple and their loved ones.</p>
                             <iframe class="embed-responsive-item"
                                 style={{ borderRadius:'20px' , boxShadow:'0px 10px 20px'}}
                                 width="560"
