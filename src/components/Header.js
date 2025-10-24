@@ -1,28 +1,44 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-
-function Header() {
+function Navbar() {
   return (
-    <div>
-      {/* <!-- Navbar --> */}
-       <nav id='navbar'>
-      <div class="container-fluid" id ='nav-container'>
-        <div className='title'>
-        <h1>Wedding photography</h1>
+    <nav className="navbar navbar-expand-lg  fixed-top" id="navbar">
+      <div className="container-fluid" >
+
+        {/* Brand Title */}
+        <h1 className="navbar-brand fw-bold " id="title" >Wedding Photography</h1>
+
+        {/* Toggle Button for Mobile */}
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        {/* Menu Items */}
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link to="/home" className="nav-link fw-bold fs-5" id="links">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/aboutus" className="nav-link fw-bold fs-5" id="links">Aboutus</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/services" className="nav-link fw-bold fs-5" id="links">Services</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/albums" className="nav-link fw-bold fs-5" id="links">Albums</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/contact" className="nav-link fw-bold fs-5" id="links">Contact</Link>
+            </li>
+          </ul>
         </div>
-        <div className=' links ' style={{marginTop:'20px'}} >
-          <Link to="/home" className='m-3 text-decoration-none  font-weight-bold fs-5' style={{color:'black'}}>Home</Link>
-          <Link to="/aboutus" className='m-3 text-decoration-none  font-weight-bold fs-5' style={{color:'black'}}>Aboutus</Link>
-          <Link to="/services" className='m-3 text-decoration-none  font-weight-bold fs-5' style={{color:'black'}}>Services</Link>
-          <Link to="/albums" className='m-3 text-decoration-none  font-weight-bold fs-5' style={{color:'black'}}>Albums</Link>
-          <Link to="/contact" className='m-3 text-decoration-none  font-weight-bold fs-5' style={{color:'black'}}>Contact</Link>
-        </div>
+
       </div>
     </nav>
-    </div>
-  )
+  );
 }
 
-export default Header
-
+export default Navbar;
