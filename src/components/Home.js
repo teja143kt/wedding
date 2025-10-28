@@ -14,7 +14,7 @@ function Home() {
           {/* intro */}
           <div>
             <p className='p2 mt-4' style={{
-              marginBottom: '10px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman', marginTop: '30px',
+              marginBottom: '10px', color: 'rgb(221 128 33 / 90%)', fontFamily: 'Times New Roman', marginTop: '30px',
               fontSize: '40px'
             }}>AWARD WINNING PHOTOGRAPHY</p>
             <p className='p3'>Showcasing your big day in a memorable and unforgettable way.</p>
@@ -29,7 +29,7 @@ function Home() {
             </div>
             <div class="col-md-6">
               <p className='p2' style={{
-                color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
+                color: 'rgb(221 128 33 / 90%)', fontFamily: 'Times New Roman',
                 fontSize: '40px'
               }}>Hello , My name is Teja</p>
               <p className='p4'>A wedding photographer passionate about capturing love stories   in their most natural and beautiful moments.
@@ -42,7 +42,7 @@ function Home() {
         {/* services */}
         <section id="projects" class="container my-5">
           <h2 class="text-center mb-4" style={{
-            marginTop: '30px', marginBottom: '30px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
+            marginTop: '30px', marginBottom: '30px', color: 'rgb(221 128 33 / 90%)', fontFamily: 'Times New Roman',
             fontSize: '40px'
           }}>services</h2>
           <h3 style={{ marginBottom: '20px' }}>Our 6-Day Wedding Photography Experience</h3>
@@ -54,7 +54,7 @@ function Home() {
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0cKaRI7M9mPEygZjZJBk9anNXCjlbviKhXCJPsd0YWlnnZhUt6bo3HGM_sEuZhjyBi0&usqp=CAU"
                   alt="Project 1" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'#fac38bf3'}}>Engagement</h3></a>
+                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Engagement</h3></a>
                 <p>“Through my lens, I capture not just moments — but emotions that last a lifetime.”</p>
               </div>
             </div>
@@ -63,7 +63,7 @@ function Home() {
               <div class="skills-card text-center">
                 <img src="https://vedicbridge.com/wp-content/uploads/2025/08/Marriage-puja.jpg" alt="Project 2"
                   class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'#fac38bf3'}}>Puja Ceremony</h3></a>
+                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Puja Ceremony</h3></a>
                 <p>Capturing the essence of love and commitment during the puja ceremony.</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ function Home() {
               <div class="skills-card text-center">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMGk-PYlYGTkR9EYqCBZRdzGOagKbMLdhX-LUhE3w6Zu_Ht4wDtDCZLCfqu2FOJuqpDI&usqp=CAU"
                   alt="Project 3" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'#fac38bf3'}}>Haldi Ceremony</h3></a>
+                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Haldi Ceremony</h3></a>
                 <p>Celebrating the joyous haldi ceremony with vibrant colors and emotions.</p>
               </div>
             </div>
@@ -82,7 +82,7 @@ function Home() {
                 <img
                   src="https://tamil.cdn.zeenews.com/tamil/sites/default/files/2018/03/24/127886-hindu-wedding.jpg"
                   alt="Project 4" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'#fac38bf3'}}>Marriage </h3></a>
+                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Marriage </h3></a>
                 <p>Capturing the moments of the marriage ceremony with elegance and grace.</p>
               </div>
             </div>
@@ -92,7 +92,7 @@ function Home() {
                 <img
                   src="https://miro.medium.com/v2/1*9FwzVTA8yKYy3oxCmWI6XA.jpeg"
                   alt="Project 5" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'#fac38bf3'}}>Gruha Pravesh</h3></a>
+                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Gruha Pravesh</h3></a>
                 <p>Capturing the beautiful moments of the Gruha Pravesh ceremony.</p>
               </div>
             </div>
@@ -102,7 +102,7 @@ function Home() {
                 <img
                   src="https://i.pinimg.com/736x/bb/72/09/bb72090d075472991190dce58a67f967.jpg"
                   alt="Project 6" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'#fac38bf3'}}>reception</h3></a>
+                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>reception</h3></a>
                 <p>Capturing the joyous moments of the wedding reception with elegance and style.</p>
               </div>
             </div>
@@ -112,7 +112,7 @@ function Home() {
         {/* Albums */}
         <div>
           <h2 class="text-center mb-4" style={{
-            marginTop: '20px', marginBottom: '20px', color: 'rgba(234, 175, 115, 0.9)', fontFamily: 'Times New Roman',
+            marginTop: '20px', marginBottom: '20px', color: 'rgb(221 128 33 / 90%)', fontFamily: 'Times New Roman',
             fontSize: '40px'
           }}>Albums</h2>
           <p >Ready to preserve your special day in a timeless wedding album? Contact us today <br /> to book your session, and let’s create memories that you’ll cherish forever.</p>

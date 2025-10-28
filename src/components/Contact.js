@@ -4,9 +4,9 @@ function Contact() {
   return (
     <div>
       {/* Contact Section */}
-      <section className="container my-5" id="contact">
+      <section className="container my-5" >
         <div className="text-center mb-4" style={{
-          color: 'rgba(239, 181, 119, 0.77)',
+          color: 'rgb(221 128 33 / 90%)',
           fontFamily: 'Times New Roman',
           fontSize: '40px',
           marginTop: '100px'
@@ -18,10 +18,10 @@ function Contact() {
           <br /> Contact me and let’s begin your story.
         </p>
 
-        <div className="row align-items-center">
+        <div className="row align-items-center" id="contact">
           {/* Form Section */}
           <div className="col-md-6 mb-4">
-            <form className="contact-form">
+            <form className="contact-form" >
               <div className="mb-3">
                 <input type="text" className="form-control" placeholder="Your Name" required />
               </div>
@@ -31,11 +31,11 @@ function Contact() {
               <div className="mb-3">
                 <textarea className="form-control" rows="5" placeholder="Your Message" required></textarea>
               </div>
-              <button type="submit" className="btn btn-primary w-100">Send Message</button>
+              <button type="submit" className="btn btn-primary">Send Message</button>
             </form>
 
             {/* Contact Details */}
-            <ul className="list-unstyled mt-4">
+            <ul className="list-unstyled mt-2" id='form' >
               <li className="mb-2">
                 Email:
                 <a href="mailto:tejakutchula@gmail.com" className="text-decoration-none"> tejakutchula@gmail.com</a>
@@ -57,7 +57,6 @@ function Contact() {
               src="https://i.pinimg.com/236x/bd/ff/58/bdff580478e4f79e59b31a2b50621356.jpg"
               alt="Contact"
               className="img-fluid rounded shadow"
-              style={{ maxHeight: '400px' }}
             />
           </div>
         </div>

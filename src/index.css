@@ -24,7 +24,7 @@ code {
   #nav-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 0 20px;
   }
 
@@ -196,7 +196,7 @@ code {
   }
 
 
-  #from {
+  #form {
     width: 260px;
     padding: 10px;
     background: rgba(240, 239, 237, 0.927);
@@ -297,34 +297,3 @@ code {
 
   }
 
-  /* services */
-
-  .services {
-    width: 280px;
-    height: 280px;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 50px;
-    object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.475);
-  }
-
-  .paragraph {
-    margin-right: 80px;
-  }
-
-  /* albums */
-
-  .image {
-    width: 350px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    transition: transform 0.5s ease;
-  }
-
-  .image:hover {
-    transform: scale(1.1);
-  }

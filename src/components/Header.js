@@ -19,7 +19,7 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="/home" className="nav-link fw-bold fs-5" id="links">Home</Link>
+              <Link to="/" className="nav-link fw-bold fs-5" id="links">Home</Link>
             </li>
             <li className="nav-item">
               <Link to="/aboutus" className="nav-link fw-bold fs-5" id="links">Aboutus</Link>
