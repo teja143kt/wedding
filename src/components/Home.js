@@ -1,152 +1,137 @@
-
-import React from 'react'
+import React from 'react';
+ // Only for hero background if needed
 
 function Home() {
   return (
     <div>
-      {/* Hero section  */}
-      <section id="home">
-        <div className='para' id='bg'>
-          <p id='p1'>your dream wedding awaits</p>
-          <p>Artistic wedding photography</p>
+      {/* Hero Section */}
+      <section id="home" className="d-flex justify-content-center align-items-center text-center home-bg">
+        <div className="text-white">
+          <h1 className="display-4 fw-bold">Your Dream Wedding Awaits</h1>
+          <p className="fs-4">Artistic Wedding Photography</p>
         </div>
-        <>
-          {/* intro */}
-          <div>
-            <p className='p2 mt-4' style={{
-              marginBottom: '10px', color: 'rgb(221 128 33 / 90%)', fontFamily: 'Times New Roman', marginTop: '30px',
-              fontSize: '40px'
-            }}>AWARD WINNING PHOTOGRAPHY</p>
-            <p className='p3'>Showcasing your big day in a memorable and unforgettable way.</p>
+      </section>
+
+      {/* Intro */}
+      <section className="container text-center my-5">
+        <h2 className="fw-bold  mb-3" style={{ fontFamily: 'Times New Roman',color: "rgb(221 128 33 / 90%)" }}>
+          AWARD WINNING PHOTOGRAPHY
+        </h2>
+        <p className="fs-5">
+          Showcasing your big day in a memorable and unforgettable way.
+        </p>
+      </section>
+
+      {/* Profile Section */}
+      <section className="container my-5">
+        <div className="row align-items-center text-center text-md-start g-4">
+          <div className="col-md-6">
+            <img src="https://i.pinimg.com/474x/cb/f9/58/cbf958a59f2950ad7bc211ce50961166.jpg"
+              className="img-fluid rounded-circle shadow-lg"
+              alt="profile"
+              style={{height:'300px',width:'320px'}}
+            />
           </div>
-        </>
-
-        {/* profile */}
-        <div class="container">
-          <div class="row" id='about'>
-            <div class="col-md-6" >
-              <img src="https://i.pinimg.com/474x/cb/f9/58/cbf958a59f2950ad7bc211ce50961166.jpg" alt="profile" className='profile' />
-            </div>
-            <div class="col-md-6">
-              <p className='p2' style={{
-                color: 'rgb(221 128 33 / 90%)', fontFamily: 'Times New Roman',
-                fontSize: '40px'
-              }}>Hello , My name is Teja</p>
-              <p className='p4'>A wedding photographer passionate about capturing love stories   in their most natural and beautiful moments.
-                I believe every wedding  is unique, and my goal is to create timeless images that reflect genuine  emotions,   laughter, and the little details that make your day truly yours.  With a blend of candid and creative photography, I strive to turn your  special moments into lasting memories.</p>
-            </div>
-
-          </div>
-        </div>
-
-        {/* services */}
-        <section id="projects" class="container my-5">
-          <h2 class="text-center mb-4" style={{
-            marginTop: '30px', marginBottom: '30px', color: 'rgb(221 128 33 / 90%)', fontFamily: 'Times New Roman',
-            fontSize: '40px'
-          }}>services</h2>
-          <h3 style={{ marginBottom: '20px' }}>Our 6-Day Wedding Photography Experience</h3>
-          <p style={{ marginBottom: '30px' }}>From the joyful pre-wedding moments to the grand reception, we capture every emotion and every detail across six unforgettable days. Our service includes candid photography, cinematic videography, traditional portraits, and artistic couple shoots—each frame crafted with creativity and love. We don’t just take pictures; we tell your story beautifully, turning every moment into a timeless memory you’ll cherish forever.</p>
-          <div class="row row d-flex align-items-stretch" id="services" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
-            {/* Engagement */}
-            <div class="col-md-3 col-lg-3" style={{ marginLeft: "80px" }}>
-              <div class="skills-card text-center ">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0cKaRI7M9mPEygZjZJBk9anNXCjlbviKhXCJPsd0YWlnnZhUt6bo3HGM_sEuZhjyBi0&usqp=CAU"
-                  alt="Project 1" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Engagement</h3></a>
-                <p>“Through my lens, I capture not just moments — but emotions that last a lifetime.”</p>
-              </div>
-            </div>
-            {/* <!-- puja --> */}
-            <div class="col-md-3 col-lg-3" style={{ marginLeft: "60px" }}>
-              <div class="skills-card text-center">
-                <img src="https://vedicbridge.com/wp-content/uploads/2025/08/Marriage-puja.jpg" alt="Project 2"
-                  class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Puja Ceremony</h3></a>
-                <p>Capturing the essence of love and commitment during the puja ceremony.</p>
-              </div>
-            </div>
-            {/* <!-- haldi --> */}
-            <div class="col-md-6 col-lg-3" style={{ marginLeft: "20px" }}>
-              <div class="skills-card text-center">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMGk-PYlYGTkR9EYqCBZRdzGOagKbMLdhX-LUhE3w6Zu_Ht4wDtDCZLCfqu2FOJuqpDI&usqp=CAU"
-                  alt="Project 3" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Haldi Ceremony</h3></a>
-                <p>Celebrating the joyous haldi ceremony with vibrant colors and emotions.</p>
-              </div>
-            </div>
-            {/* <!-- marriage --> */}
-            <div class="col-md-6 col-lg-3" style={{ marginLeft: "80px" }}>
-              <div class="skills-card text-center">
-                <img
-                  src="https://tamil.cdn.zeenews.com/tamil/sites/default/files/2018/03/24/127886-hindu-wedding.jpg"
-                  alt="Project 4" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Marriage </h3></a>
-                <p>Capturing the moments of the marriage ceremony with elegance and grace.</p>
-              </div>
-            </div>
-            {/* <!-- Griha Pravesh --> */}
-            <div class="col-md-6 col-lg-3" style={{ marginLeft: "60px" }}>
-              <div class="skills-card text-center">
-                <img
-                  src="https://miro.medium.com/v2/1*9FwzVTA8yKYy3oxCmWI6XA.jpeg"
-                  alt="Project 5" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>Gruha Pravesh</h3></a>
-                <p>Capturing the beautiful moments of the Gruha Pravesh ceremony.</p>
-              </div>
-            </div>
-            {/* <!-- reception --> */}
-            <div class="col-md-6 col-lg-3" style={{ marginLeft: "20px" }}>
-              <div class="skills-card text-center">
-                <img
-                  src="https://i.pinimg.com/736x/bb/72/09/bb72090d075472991190dce58a67f967.jpg"
-                  alt="Project 6" class="img-fluid rounded mb-3" />
-                <a href='http://localhost:3000/services' class="text-decoration-none"><h3 style={{color:'rgb(221 128 33 / 90%)'}}>reception</h3></a>
-                <p>Capturing the joyous moments of the wedding reception with elegance and style.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Albums */}
-        <div>
-          <h2 class="text-center mb-4" style={{
-            marginTop: '20px', marginBottom: '20px', color: 'rgb(221 128 33 / 90%)', fontFamily: 'Times New Roman',
-            fontSize: '40px'
-          }}>Albums</h2>
-          <p >Ready to preserve your special day in a timeless wedding album? Contact us today <br /> to book your session, and let’s create memories that you’ll cherish forever.</p>
-          <div style={{ marginRight: '50px', marginBottom: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div id="album" >
-              <div style={{marginBottom:'30px'}} >
-                <img style={{height:'420px',}}
-                  src="https://i.pinimg.com/736x/a1/0a/82/a10a82d036b9a20436e7ea3dd60076bc.jpg"
-                  alt="Project 1" className='img' />
-                <p style={{marginTop:'10px', fontFamily:'cursive',fontSize:'20px'}}>Forever starts today</p>
-              </div>
-              <div style={{marginTop:'50px'}} >
-                <p style={{marginBottom:'10px', fontFamily:'cursive',fontSize:'20px'}}>A love story written in hearts</p>
-                <img style={{height:'420px', marginBottom:'10px'}}
-                  src="https://i.pinimg.com/originals/37/2a/f8/372af84252aebd81617686732fafc2dc.jpg"
-                  alt="Project 1" className='img' />
-                <a href='http://localhost:3000/albums' className='a' style={{ fontFamily:'cursive',fontSize:'20px', textDecoration:'none', }}>View all...</a>
-              </div>
-              <div style={{marginBottom:'30px'}}>
-                <img
-                  src="https://i.pinimg.com/1200x/81/64/0d/81640da483c39812df796295fd877a20.jpg"
-                  alt="Project 1" className='img' />
-                <p style={{marginTop:'10px', fontFamily:'cursive',fontSize:'20px'}}>Soulmates in a lifetime of love</p>
-              </div>
-
-            </div>
+          <div className="col-md-6">
+            <h2 className=" fw-bold" style={{ fontFamily: 'Times New Roman',color: "rgb(221 128 33 / 90%)" }}>
+              Hello, My name is Teja
+            </h2>
+            <p>
+              A wedding photographer passionate about capturing love stories in their most
+               natural and beautiful moments. I believe every wedding is unique, and my goal 
+               is to create timeless images that reflect genuine emotions, laughter, and the 
+               little details that make your day truly yours. With a blend of candid and creative
+                photography, I strive to turn your special moments into lasting memories.
+            </p>
           </div>
         </div>
+      </section>
 
+      {/* Services Section */}
+      <section className="container text-center my-5">
+        <h2 className="fw-bold  mb-3" style={{ fontFamily: 'Times New Roman',color: "rgb(221 128 33 / 90%)" }}>Services</h2>
+        <h4 className="mb-3 fw-semibold">Our 6-Day Wedding Photography Experience</h4>
+        <p className="mb-4">
+          From pre-wedding excitement to grand reception — we capture every emotion…
+        </p>
+
+        <div className="row g-4">
+          {[
+            {
+              img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0cKaRI7M9mPEygZjZJBk9anNXCjlbviKhXCJPsd0YWlnnZhUt6bo3HGM_sEuZhjyBi0&usqp=CAU",
+              title: "Engagement",
+              desc: "Capturing emotions that last a lifetime."
+            },
+            {
+              img: "https://vedicbridge.com/wp-content/uploads/2025/08/Marriage-puja.jpg",
+              title: "Puja Ceremony",
+              desc: "Sacred rituals captured beautifully."
+            },
+            {
+              img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMGk-PYlYGTkR9EYqCBZRdzGOagKbMLdhX-LUhE3w6Zu_Ht4wDtDCZLCfqu2FOJuqpDI&usqp=CAU",
+              title: "Haldi Ceremony",
+              desc: "Bright colors, bright smiles."
+            },
+            {
+              img: "https://tamil.cdn.zeenews.com/tamil/sites/default/files/2018/03/24/127886-hindu-wedding.jpg",
+              title: "Marriage",
+              desc: "Graceful & elegant wedding moments."
+            },
+            {
+              img: "https://miro.medium.com/v2/1*9FwzVTA8yKYy3oxCmWI6XA.jpeg",
+              title: "Gruha Pravesh",
+              desc: "A beautiful new beginning."
+            },
+            {
+              img: "https://i.pinimg.com/736x/bb/72/09/bb72090d075472991190dce58a67f967.jpg",
+              title: "Reception",
+              desc: "Celebrate the joy of togetherness."
+            },
+          ].map((service, index) => (
+            <div className="col-12 col-sm-6 col-lg-4" key={index}>
+              <div className="card h-100 border-0 shadow-lg p-3">
+                <img src={service.img} alt={service.title} className="img-fluid rounded mb-3" />
+                <h5  style={{color: "rgb(221 128 33 / 90%)"}}>{service.title}</h5>
+                <p>{service.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Album Section */}
+      <section className="container text-center my-5">
+        <h2 className="fw-bold mb-3" style={{ fontFamily: 'Times New Roman',color: "rgb(221 128 33 / 90%)" }}>Albums</h2>
+        <p className="mb-4">Timeless wedding albums to cherish forever…</p>
+
+        <div className="row g-4 justify-content-center">
+          <div className="col-md-4">
+            <img className="img-fluid rounded" style={{ height: "350px", objectFit: "cover" }}
+              src="https://i.pinimg.com/736x/a1/0a/82/a10a82d036b9a20436e7ea3dd60076bc.jpg"
+              alt=""
+            />
+            <p className="mt-2 fs-6 fst-italic">Forever starts today</p>
+          </div>
+
+          <div className="col-md-4">
+            <img className="img-fluid rounded" style={{ height: "350px", objectFit: "cover" }}
+              src="https://i.pinimg.com/originals/37/2a/f8/372af84252aebd81617686732fafc2dc.jpg"
+              alt=""
+            />
+            <a href="/albums" className="d-block mt-2 fst-italic text-decoration-none">View all →</a>
+          </div>
+
+          <div className="col-md-4">
+            <img className="img-fluid rounded" style={{ height: "350px", objectFit: "cover" }}
+              src="https://i.pinimg.com/1200x/81/64/0d/81640da483c39812df796295fd877a20.jpg"
+              alt=""
+            />
+            <p className="mt-2 fs-6 fst-italic">Soulmates forever</p>
+          </div>
+        </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default Home
-
-
+export default Home;

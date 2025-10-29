@@ -75,118 +75,13 @@ code {
     justify-content: center;
   }
 
-  #bg {
-    background-image: url("https://media.istockphoto.com/id/929904308/photo/bouquet-at-the-beach.jpg?s=612x612&w=0&k=20&c=wKztFI2bKpRJ6kB6wmn4sLcSquz7cV6wxSHFmlRV2p8=");
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+ .home-bg {
+  background-image: url("https://media.istockphoto.com/id/929904308/photo/bouquet-at-the-beach.jpg?s=612x612&w=0&k=20&c=wKztFI2bKpRJ6kB6wmn4sLcSquz7cV6wxSHFmlRV2p8=");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 
-  #bg p {
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-    /* text-align: center; */
-    text-shadow: 2px 2px 4px #000000;
-  }
-
-  #bg {
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #p1 {
-    margin-top: 350px;
-    line-height: 1.6;
-  }
-
-  .para #p1 {
-    font-size: 60px;
-    margin-bottom: 20px;
-    color: #f5c89ac0;
-  }
-
-  .p2 {
-    font-size: 35px;
-    color: #f5c799e4;
-    margin-bottom: 10px;
-    /* margin-top: 80px; */
-  }
-
-  .p3 {
-    font-size: 27px;
-    color: #0e0e0e;
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
-
-
-  .profile {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-right: 80px;
-    object-fit: cover;
-    border: 4px solid #dfd6d6;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.475);
-  }
-
-  /* services */
-  #skills {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-  }
-
-  .skills-card {
-    height: 350px;
-    width: 300px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: #00000033 1px solid;
-
-  }
-
-  .skills-card h5 {
-    color: #f5c799e4;
-  }
-
-  .skills-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  /* Card Hover Effects */
-  .skills-card:hover {
-    transform: translateY(-10px);
-    box-shadow: #f5c799e4 0px 10px 20px;
-    transition: all 0.3s ease;
-  }
-
-
-
-  /* album */
-  #album {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    border: #00000033 1px solid;
-  }
 
   /* footer */
   .footer {
