@@ -154,3 +154,37 @@ a:hover {
   box-shadow: #f5c799e4 0px 10px 20px;
   transition: all 0.3s ease;
 }
+
+.portfolioimg {
+    max-width: 100%;
+    width: 100%;
+    height: auto !important;
+}
+
+@media (max-width:767px) {
+    .portfolioimg {
+        max-width: 0%;
+        max-height: 0%;
+    }
+}
+
+@media (min-width:768px) {
+    .portfolioimg {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (min-width:992px) {
+    .portfolioimg {
+        max-width: 314px;
+        max-height: 314px;
+    }
+}
+
+@media (min-width:1200px) {
+    .portfolioimg {
+        max-width: 380px;
+        max-height: 380px;
+    }
+}
