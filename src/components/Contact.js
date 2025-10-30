@@ -110,6 +110,10 @@ function Contact() {
               </li>
             </ul>
           </div>
+
+          <div>
+            <img src=""/>
+          </div>
         </div>
       </section>
     </div>

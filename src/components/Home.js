@@ -6,9 +6,9 @@ function Home() {
     <div>
       {/* Hero Section */}
       <section id="home" className="d-flex justify-content-center align-items-center text-center home-bg">
-        <div className="text-white">
-          <h1 className="display-4 fw-bold">Your Dream Wedding Awaits</h1>
-          <p className="fs-4">Artistic Wedding Photography</p>
+        <div className="text-white" style={{fontFamily:'times new romen'}}>
+          <h1 className="display-4 fw-bold " style={{marginTop:'380px',color:'#f49213ff',}}>Your Dream Wedding Awaits</h1>
+          <p className="fs-1 " style={{color:'#020202d9',}}>Artistic Wedding Photography</p>
         </div>
       </section>
 
@@ -60,7 +60,7 @@ function Home() {
             {
               img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0cKaRI7M9mPEygZjZJBk9anNXCjlbviKhXCJPsd0YWlnnZhUt6bo3HGM_sEuZhjyBi0&usqp=CAU",
               title: "Engagement",
-              desc: "Capturing emotions that last a lifetime."
+              desc: "Two hearts, one promise — forever begins with this beautiful moment."
             },
             {
               img: "https://vedicbridge.com/wp-content/uploads/2025/08/Marriage-puja.jpg",
@@ -70,29 +70,31 @@ function Home() {
             {
               img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMGk-PYlYGTkR9EYqCBZRdzGOagKbMLdhX-LUhE3w6Zu_Ht4wDtDCZLCfqu2FOJuqpDI&usqp=CAU",
               title: "Haldi Ceremony",
-              desc: "Bright colors, bright smiles."
+              desc: "Bathed in turmeric and laughter, love begins to shine brighter than gold."
             },
             {
               img: "https://tamil.cdn.zeenews.com/tamil/sites/default/files/2018/03/24/127886-hindu-wedding.jpg",
               title: "Marriage",
-              desc: "Graceful & elegant wedding moments."
+              desc: "In your arms, I’ve found my home and my forever begins today."
             },
             {
               img: "https://miro.medium.com/v2/1*9FwzVTA8yKYy3oxCmWI6XA.jpeg",
               title: "Gruha Pravesh",
-              desc: "A beautiful new beginning."
+              desc: "May this home be filled with love, laughter, and endless blessings."
             },
             {
               img: "https://i.pinimg.com/736x/bb/72/09/bb72090d075472991190dce58a67f967.jpg",
               title: "Reception",
-              desc: "Celebrate the joy of togetherness."
+              desc: "Where the night sparkles with love, laughter, and forever memories."
             },
           ].map((service, index) => (
-            <div className="col-12 col-sm-6 col-lg-4" key={index}>
-              <div className="card h-100 border-0 shadow-lg p-3">
+            <div className="col-12 col-sm-6 col-lg-4 " key={index}>
+              <div className="card h-100 border-0 shadow-lg p-3 services">
+                <a href='http://localhost:3000/services' style={{textDecoration:'none'}}>
                 <img src={service.img} alt={service.title} className="img-fluid rounded mb-3" />
                 <h5  style={{color: "rgb(221 128 33 / 90%)"}}>{service.title}</h5>
-                <p>{service.desc}</p>
+                <p style={{color:'black'}}>{service.desc}</p>
+                </a>
               </div>
             </div>
           ))}
@@ -102,9 +104,14 @@ function Home() {
       {/* Album Section */}
       <section className="container text-center my-5">
         <h2 className="fw-bold mb-3" style={{ fontFamily: 'Times New Roman',color: "rgb(221 128 33 / 90%)" }}>Albums</h2>
-        <p className="mb-4">Timeless wedding albums to cherish forever…</p>
+        <p className="mb-4 pb-4">Timeless wedding albums to cherish forever…</p>
 
-        <div className="row g-4 justify-content-center">
+        <div className="row g-4 justify-content-center shadow"
+         style={{
+         borderRadius:'20px',
+         background:'rgb(221 128 33 / 20%)',
+        }}
+         >
           <div className="col-md-4">
             <img className="img-fluid rounded" style={{ height: "350px", objectFit: "cover" }}
               src="https://i.pinimg.com/736x/a1/0a/82/a10a82d036b9a20436e7ea3dd60076bc.jpg"

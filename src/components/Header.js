@@ -5,8 +5,8 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg  fixed-top" id="navbar">
       <div className="container-fluid" >
 
-        {/* Brand Title */}
-        <h1 className="navbar-brand fw-bold " id="title" >Wedding Photography</h1>
+        {/* Brand Title */} 
+        <h1 className="navbar-brand fw-bold  " id="title" >Wedding Photography</h1>
 
         {/* Toggle Button for Mobile */}
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"

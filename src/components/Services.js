@@ -64,14 +64,14 @@ function Services() {
             color: "rgb(221 128 33 / 90%)",
             fontFamily: "Times New Roman",
             fontSize: "40px",
-            marginTop: "100px",
+            marginTop: "60px",
           }}
         >
           Services
         </h2>
         <p
           className="lead mx-auto"
-          style={{ maxWidth: "900px", fontSize: "18px", lineHeight: "1.6" }}
+          style={{ maxWidth: "900px", fontSize: "20px", lineHeight: "1.6" }}
         >
           We offer a complete range of wedding photography and cinematography
           services to capture every precious moment. From pre-wedding shoots to
