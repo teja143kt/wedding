@@ -1,5 +1,4 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -118,34 +117,6 @@ function Contact() {
                   </a>
                 </li>
               </ul>
-
-              {/* Social Media Links */}
-              <div className="d-flex justify-content-center justify-content-md-start gap-4">
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white fs-4"
-                >
-                  <i className="bi bi-instagram"></i>
-                </a>
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white fs-4"
-                >
-                  <i className="bi bi-facebook"></i>
-                </a>
-                <a
-                  href="https://wa.me/916302233031"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white fs-4"
-                >
-                  <i className="bi bi-whatsapp"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
