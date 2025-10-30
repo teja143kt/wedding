@@ -1,40 +1,42 @@
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div>
-      {/* Contact Section */}
-      <section className="container my-5">
+    <div
+    >
+      <section className="container py-5 my-5">
         {/* Heading */}
         <h2
           className="text-center mb-4"
           style={{
-            color: "rgb(221 128 33 / 90%)",
-            fontFamily: "Times New Roman",
-            fontSize: "40px",
-            marginTop: "100px",
+            color: 'rgb(221 128 33 / 90%)',
+            fontFamily: 'Times New Roman',
+            fontSize: '40px',
+            marginTop: '30px',
           }}
         >
           Contact Me
         </h2>
 
         {/* Intro Text */}
-        <p className="text-center mb-5 fs-5 px-3">
+        <p className="text-center mb-5 fs-5 px-3 " >
           From the first look to the last dance — I’m here to capture it all.
           <br />
           Contact me and let’s begin your story.
         </p>
 
-        {/* Contact Form and Info Section */}
-        <div
-          className="row justify-content-center align-items-center p-4 rounded shadow"
-          style={{
-            background: "rgba(223, 202, 181, 0.58)",
-          }}
-        >
+        {/* Contact Section */}
+        <div className="row justify-content-center align-items-center">
           {/* Contact Form */}
           <div className="col-12 col-md-6 mb-4">
-            <div className="p-4 bg-light shadow-sm rounded">
+            <div
+              className="p-4 shadow rounded text-dark"
+              style={{
+                backgroundColor: "rgba(255,255,255,0.9)",
+                backdropFilter: "blur(5px)",
+              }}
+            >
               <form>
                 <div className="mb-3">
                   <input
@@ -66,58 +68,84 @@ function Contact() {
                 <button
                   type="submit"
                   className="btn text-white w-100"
-                  style={{ background: "rgb(221 128 33 / 80%)" }}
+                  style={{ background: "rgb(221 128 33 / 90%)" }}
                 >
                   Send Message
                 </button>
               </form>
-              
             </div>
-            <ul className="list-unstyled mb-4">
+          </div>
+
+          {/* Contact Info + Social Media */}
+          <div className="col-12 col-md-5 text-center text-md-start text-white">
+            <div
+              className="p-4 rounded"
+              style={{
+                backgroundColor: "rgba(0,0,0,0.5)",
+                backdropFilter: "blur(5px)",
+              }}
+            >
+              <ul className="list-unstyled mb-4">
                 <li className="mb-3">
-                  <strong>Email: </strong>
+                  <strong>Email:</strong>{" "}
                   <a
                     href="mailto:tejakutchula@gmail.com"
-                    className="text-decoration-none text-dark"
+                    className="text-white text-decoration-none"
                   >
                     tejakutchula@gmail.com
                   </a>
                 </li>
 
                 <li className="mb-3">
-                  <strong>Phone: </strong>
+                  <strong>Phone:</strong>{" "}
                   <a
                     href="tel:+916302233031"
-                    className="text-decoration-none text-dark"
+                    className="text-white text-decoration-none"
                   >
-                    6302233031
+                    +91 63022 33031
                   </a>
                 </li>
 
                 <li className="mb-3">
-                  <strong>Location: </strong>
+                  <strong>Location:</strong>{" "}
                   <a
                     href="https://www.google.com/maps/place/Visakhapatnam"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-decoration-none text-dark"
+                    className="text-white text-decoration-none"
                   >
                     Visakhapatnam
                   </a>
                 </li>
               </ul>
 
-          </div>
-
-          {/* Contact Info + Image */}
-          <div className="col-12 col-md-6">
-            <div className="d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
-              
-              <img
-                src="https://i.pinimg.com/736x/29/04/19/290419b2922283a6a44b452fe3ff529b.jpg"
-                alt="Contact"
-                className="img-fluid rounded shadow-sm portfolioimg"
-              />
+              {/* Social Media Links */}
+              <div className="d-flex justify-content-center justify-content-md-start gap-4">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white fs-4"
+                >
+                  <i className="bi bi-instagram"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white fs-4"
+                >
+                  <i className="bi bi-facebook"></i>
+                </a>
+                <a
+                  href="https://wa.me/916302233031"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white fs-4"
+                >
+                  <i className="bi bi-whatsapp"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>

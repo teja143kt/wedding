@@ -46,11 +46,17 @@ code {
   font-size: 45px;
   text-decoration: none;
   color: rgba(12, 12, 12, 0.779);
-  margin-left: 50px;
-  margin-right: 20px;
   margin-top: 10px;
 
 }
+
+@media (max-width:767px) {
+    #title {
+        font-size: 30px;
+    }
+}
+
+
 
 #links {
   font-family: 'Times New Roman';
@@ -66,6 +72,12 @@ code {
 #links :link:hover {
   color: rgb(8, 8, 8);
   transition: 0.3s;
+}
+
+@media (max-width:767px) {
+   #link {
+        font-size: 80px;
+    }
 }
 
 /* about */
@@ -156,12 +168,12 @@ a:hover {
   box-shadow: #f5c799e4 0px 10px 20px;
   transition: all 0.3s ease;
 }
-
+/* 
 .portfolioimg {
     max-width: 100%;
     width: 100%;
     height: auto !important;
-}
+} */
 
 @media (max-width:767px) {
     .portfolioimg {
@@ -172,8 +184,8 @@ a:hover {
 
 @media (min-width:768px) {
     .portfolioimg {
-        max-width: 240px;
-        max-height: 240px;
+        max-width: 0;
+        max-height: 0;
     }
 }
 
