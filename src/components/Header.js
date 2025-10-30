@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { MdCameraswitch } from "react-icons/md";
 
 function Navbar() {
   return (
@@ -6,7 +7,8 @@ function Navbar() {
       <div className="container-fluid" >
 
         {/* Brand Title */} 
-        <h1 className="navbar-brand fw-bold  " id="title" >Wedding Photography</h1>
+        <Link to="/" className="navbar-brand fw-bold  " id="title" ><MdCameraswitch style={{marginBottom:'20px',margin:'10px',}}/>Wedding Photography</Link>
+
 
         {/* Toggle Button for Mobile */}
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
