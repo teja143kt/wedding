@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MdCameraswitch } from "react-icons/md";
+import { Button } from "bootstrap/dist/js/bootstrap.bundle.min";
 
 function Navbar() {
   return (
@@ -35,6 +36,7 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/contact" className="nav-link fw-bold fs-5" id="links">Contact</Link>
             </li>
+             <Button to="/booknow">Book now</Button>
           </ul>
         </div>
 

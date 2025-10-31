@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Albums from './components/Albums'
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Booknow from './components/Booknow';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='/albums' element={<Albums />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/booknow' element={<Booknow />} />
         </Routes>
         <Footer />
       </BrowserRouter>

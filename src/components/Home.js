@@ -90,7 +90,7 @@ function Home() {
           ].map((service, index) => (
             <div className="col-12 col-sm-6 col-lg-4 " key={index}>
               <div className="card h-100 border-0 shadow-lg p-3 services">
-                <a href='http://localhost:3000/services' style={{textDecoration:'none'}}>
+                <a href='https://weddingimg.netlify.app/services' style={{textDecoration:'none'}}>
                 <img src={service.img} alt={service.title} className="img-fluid rounded mb-3" />
                 <h5  style={{color: "rgb(221 128 33 / 90%)"}}>{service.title}</h5>
                 <p style={{color:'black'}}>{service.desc}</p>
