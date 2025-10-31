@@ -122,7 +122,7 @@ function Services() {
                 >
                   Amount:{" "}
                   <a
-                    href="/contact"
+                    href="https://weddingphotostudio.netlify.app/contact"
                     style={{
                       textDecoration: "none",
                       color: "rgb(221 128 33 / 90%)",
