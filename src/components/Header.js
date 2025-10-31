@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { MdCameraswitch } from "react-icons/md";
-import { Button } from "bootstrap/dist/js/bootstrap.bundle.min";
+// import { Button } from "bootstrap/dist/js/bootstrap.bundle.min";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg  fixed-top" id="navbar">
+    <nav className="navbar navbar-expand-lg  fixed-top" id="navbar" style={{ borderBottom: '1px solid rgb(221 128 33 / 30%)', }}>
       <div className="container-fluid" >
 
         {/* Brand Title */} 
@@ -36,8 +36,16 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/contact" className="nav-link fw-bold fs-5" id="links">Contact</Link>
             </li>
-             <Button to="/booknow">Book now</Button>
-          </ul>
+            <li>
+              <button  style={{
+                border:'none',
+                borderRadius:'10px',
+                padding:'10px',
+                background:"rgb(221 128 33 / 80%)",
+              }}><Link to='/booknow' style={{textDecoration:'none',color:'white'}}>Booknow</Link></button>
+            </li>
+          </ul> 
+
         </div>
 
       </div>
