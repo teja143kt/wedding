@@ -12,14 +12,14 @@ function Navbar() {
 
 
         {/* Toggle Button for Mobile */}
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+        <button className="navbar-toggler" id="toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNav" aria-controls="navbarNav"
           aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 
         {/* Menu Items */}
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div className="collapse navbar-collapse justify-content-end show" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link to="/" className="nav-link fw-bold fs-5" id="links">Home</Link>

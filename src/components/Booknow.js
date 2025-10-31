@@ -20,28 +20,28 @@ function Booknow() {
         <p className="text-center mb-5 fs-5 px-3 " >
           Fill out the form below to book a photography session or event management service
         </p>
-        <div class="container bg-white p-4 p-md-5 rounded shadow-sm mt-5" style={{border:'2px solid black',marginBottom:'30px'}}>
+        <div className="container bg-white p-4 p-md-5 rounded shadow-sm mt-5" style={{border:'2px solid black',marginBottom:'30px'}}>
           <form  className='text-left'>
-            <div class="mb-3">
-              <label for="fullname" class="form-label">Full Name</label>
-              <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter your full name" required="" />
+            <div className="mb-3">
+              <label  className="form-label">Full Name</label>
+              <input type="text" className="form-control" name="fullname" id="fullname" placeholder="Enter your full name" required="" />
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" name="email" id="email" placeholder="Enter your Email" required="" />
+            <div className="mb-3">
+              <label className="form-label">Email</label>
+              <input type="email" className="form-control" name="email" id="email" placeholder="Enter your Email" required="" />
             </div>
-            <div class="row">
-              <label for="email" class="form-label">Phone</label>
-              <input class="form-control" placeholder="+91" required="" />
+            <div className="row">
+              <label  className="form-label">Phone</label>
+              <input className="form-control" placeholder="+91" required="" />
             </div>
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="dob" class="form-label">Preferred Date</label>
-                <input type="date" class="form-control" name="dob" id="dob" required="" />
+            <div className="row">
+              <div className="col-md-6 mb-3">
+                <label className="form-label">Preferred Date</label>
+                <input type="date" className="form-control" name="dob" id="dob" required="" />
               </div>
-              <div class="col-md-6 mb-3">
-                <label for="subject" class="form-label">Service Type</label>
-                <select class="form-select" name="subject" id="subject">
+              <div className="col-md-6 mb-3">
+                <label  className="form-label">Service Type</label>
+                <select className="form-select" name="subject" id="subject">
                   <option selected="" value="">services</option>
                   <option value="Engagement">Engagement</option>
                   <option value="Puja">Puja</option>
@@ -52,14 +52,14 @@ function Booknow() {
                 </select>
               </div>
             </div>
-            <div class="form-check mb-4">
-              <input class="form-check-input" type="checkbox" id="terms" required="" />
-              <label class="form-check-label" for="terms">
+            <div className="form-check mb-4">
+              <input className="form-check-input" type="checkbox" id="terms" required="" />
+              <label className="form-check-label" for="terms">
                 I agree to the terms and conditions
               </label>
             </div>
 
-            <div class="d-grid col-md-6 mx-auto">
+            <div className="d-grid col-md-6 mx-auto">
               <button
                   className="btn text-white w-100"
                   style={{ background: "rgb(221 128 33 / 90%)" }}

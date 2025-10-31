@@ -28,15 +28,27 @@ code {
   padding: 0 20px;
 }
 
+
 #navbar {
   height: 80px;
   width: 100%;
   position: fixed;
   top: 0;
   backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.473);
+  background: rgba(255, 255, 255, 0.479);
   z-index: 100;
   border-bottom: 1px solid rgba(255, 255, 255, 0.911);
+}
+
+.navbar .collapse.show {
+  background-color: white;
+
+}
+
+/* Optional: style the whole navbar when open */
+.navbar.bg-open {
+  background-color: white !important;
+    margin-bottom: 60px;
 }
 
 #title {
