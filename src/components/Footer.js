@@ -66,6 +66,7 @@ function Footer() {
               {["Engagement", "Puja", "Haldi", "Marriage", "Griha Pravesh", "Reception"].map(
                 (service, index) => (
                   <li
+                    
                     key={index}
                     style={{
                       color: "#ccc",
@@ -76,7 +77,8 @@ function Footer() {
                     onMouseOver={(e) => (e.target.style.color = "rgb(221 128 33 / 90%)")}
                     onMouseOut={(e) => (e.target.style.color = "#ccc")}
                   >
-                    {service}
+                    <a href="/services" style={{textDecoration:'none'}}>{service} </a>
+                    
                   </li>
                 )
               )}

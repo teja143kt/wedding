@@ -64,7 +64,7 @@ function Booknow() {
                   className="btn text-white w-100"
                   style={{ background: "rgb(221 128 33 / 90%)" }}
                 >
-                  Send Message
+                 <a href='/contact' style={{textDecoration:'none',color:'black'}}> Send Message</a>
                 </button>
             </div>
 
@@ -78,7 +78,7 @@ function Booknow() {
                   className="btn text-white"
                   style={{ background: "rgb(221 128 33 / 90%)" ,margin:'20px',width:'90px' }}
                 >
-                  <a href='https://weddingphotostudio.netlify.app/contact'>Contact</a>
+                  <a href='/contact'  style={{textDecoration:'none',color:'black'}}>Contact</a>
                 </button>
                 </div>
       </div>
