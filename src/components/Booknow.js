@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Booknow() {
   return (
@@ -64,7 +65,7 @@ function Booknow() {
                   className="btn text-white w-100"
                   style={{ background: "rgb(221 128 33 / 90%)" }}
                 >
-                 <a href='/contact' style={{textDecoration:'none',color:'black'}}> Send Message</a>
+                 <Link to='/contact' style={{textDecoration:'none',color:'black'}}> Send Message</Link>
                 </button>
             </div>
 
@@ -78,7 +79,7 @@ function Booknow() {
                   className="btn text-white"
                   style={{ background: "rgb(221 128 33 / 90%)" ,margin:'20px',width:'90px' }}
                 >
-                  <a href='/contact'  style={{textDecoration:'none',color:'black'}}>Contact</a>
+                  <Link to='/contact'  style={{textDecoration:'none',color:'black'}}>Contact</Link>
                 </button>
                 </div>
       </div>

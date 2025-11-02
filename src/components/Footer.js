@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaFacebook, FaInstagram, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 import { MdCameraswitch } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -77,7 +78,7 @@ function Footer() {
                     onMouseOver={(e) => (e.target.style.color = "rgb(221 128 33 / 90%)")}
                     onMouseOut={(e) => (e.target.style.color = "#ccc")}
                   >
-                    <a href="/services" style={{textDecoration:'none'}}>{service} </a>
+                    <Link to="/services" style={{textDecoration:'none',color:'white'}}>{service} </Link>
                     
                   </li>
                 )

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
  // Only for hero background if needed
 
 function Home() {
@@ -90,11 +91,11 @@ function Home() {
           ].map((service, index) => (
             <div className="col-12 col-sm-6 col-lg-4 " key={index}>
               <div className="card h-100 border-0 shadow-lg p-3 services">
-                <a href='/services' style={{textDecoration:'none'}}>
+                <Link to='/services' style={{textDecoration:'none'}}>
                 <img src={service.img} alt={service.title} className="img-fluid rounded mb-3" />
                 <h5  style={{color: "rgb(221 128 33 / 90%)"}}>{service.title}</h5>
                 <p style={{color:'black'}}>{service.desc}</p>
-                </a>
+                </Link>
               </div>
             </div>
           ))}
@@ -125,7 +126,7 @@ function Home() {
               src="https://i.pinimg.com/originals/37/2a/f8/372af84252aebd81617686732fafc2dc.jpg"
               alt=""
             />
-            <a href="/albums" className="d-block mt-2 fst-italic text-decoration-none">View all →</a>
+            <Link to="/albums" className="d-block mt-2 fst-italic text-decoration-none">View all →</Link>
           </div>
 
           <div className="col-md-4">
