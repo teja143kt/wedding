@@ -1,53 +1,131 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdCameraswitch } from "react-icons/md";
-// import { Button } from "bootstrap/dist/js/bootstrap.bundle.min";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => setIsOpen(!isOpen);
+  const closeMenu = () => setIsOpen(false);
+
   return (
-    <nav className="navbar navbar-expand-lg  fixed-top" id="navbar" style={{ borderBottom: '1px solid rgb(221 128 33 / 30%)', }}>
-      <div className="container-fluid" >
+    <nav
+      className="navbar navbar-expand-lg fixed-top"
+      id="navbar"
+      style={{
+        borderBottom: "1px solid rgb(221 128 33 / 30%)",
+        backgroundColor: isOpen ? "white" : "transparent",
+        transition: "background-color 0.3s ease",
+      }}
+    >
+      <div className="container-fluid">
+        {/* Brand Title */}
+        <Link
+          to="/"
+          className="navbar-brand fw-bold"
+          id="title"
+          onClick={closeMenu}
+          style={{ display: "flex", alignItems: "center", gap: "8px" }}
+        >
+          <MdCameraswitch style={{ marginBottom: "3px" }} />
+          Wedding Photography
+        </Link>
 
-        {/* Brand Title */} 
-        <Link to="/" className="navbar-brand fw-bold  " id="title" ><MdCameraswitch style={{marginBottom:'20px',margin:'10px',}}/>Wedding Photography</Link>
-
-
-        {/* Toggle Button for Mobile */}
-        <button className="navbar-toggler" id="toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav" aria-controls="navbarNav"
-          aria-expanded="false" aria-label="Toggle navigation">
+        {/* Toggle Button */}
+        <button
+          className="navbar-toggler"
+          id="toggler"
+          type="button"
+          onClick={handleToggle}
+          aria-controls="navbarNav"
+          aria-expanded={isOpen}
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Menu Items */}
-        <div className="collapse navbar-collapse justify-content-end show" id="navbarNav">
-          <ul className="navbar-nav">
+        {/* Collapsible Menu */}
+        <div
+          className={`collapse navbar-collapse justify-content-end ${
+            isOpen ? "show" : ""
+          }`}
+          id="navbarNav"
+          style={{
+            backgroundColor: isOpen ? "white" : "transparent",
+            transition: "background-color 0.3s ease",
+          }}
+        >
+          <ul className="navbar-nav text-center">
             <li className="nav-item">
-              <Link to="/" className="nav-link fw-bold fs-5" id="links">Home</Link>
+              <Link
+                to="/"
+                className="nav-link fw-bold fs-5"
+                id="links"
+                onClick={closeMenu}
+              >
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/aboutus" className="nav-link fw-bold fs-5" id="links">Aboutus</Link>
+              <Link
+                to="/aboutus"
+                className="nav-link fw-bold fs-5"
+                id="links"
+                onClick={closeMenu}
+              >
+                About Us
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/services" className="nav-link fw-bold fs-5" id="links">Services</Link>
+              <Link
+                to="/services"
+                className="nav-link fw-bold fs-5"
+                id="links"
+                onClick={closeMenu}
+              >
+                Services
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/albums" className="nav-link fw-bold fs-5" id="links">Albums</Link>
+              <Link
+                to="/albums"
+                className="nav-link fw-bold fs-5"
+                id="links"
+                onClick={closeMenu}
+              >
+                Albums
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link fw-bold fs-5" id="links">Contact</Link>
+              <Link
+                to="/contact"
+                className="nav-link fw-bold fs-5"
+                id="links"
+                onClick={closeMenu}
+              >
+                Contact
+              </Link>
             </li>
-            <li>
-              <button  style={{
-                border:'none',
-                borderRadius:'10px',
-                padding:'10px',
-                background:"rgb(221 128 33 / 80%)",
-              }}><Link to='/booknow' style={{textDecoration:'none',color:'white'}}>Booknow</Link></button>
+            <li className="nav-item">
+              <button
+                style={{
+                  border: "none",
+                  borderRadius: "10px",
+                  padding: "10px",
+                  background: "rgb(221 128 33 / 80%)",
+                }}
+                onClick={closeMenu}
+              >
+                <Link
+                  to="/booknow"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  Book Now
+                </Link>
+              </button>
             </li>
-          </ul> 
-
+          </ul>
         </div>
-
       </div>
     </nav>
   );
