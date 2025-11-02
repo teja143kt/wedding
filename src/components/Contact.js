@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaFacebook, FaInstagram, FaTwitterSquare, FaYoutube } from "react-icons/fa";
+import {  FaFacebook, FaInstagram, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 
 function Contact() {
   return (
