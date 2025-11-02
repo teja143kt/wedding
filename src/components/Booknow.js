@@ -73,13 +73,13 @@ function Booknow() {
         </div>
         <div>
           <p>Have questions about our services or pricing?</p>
-          <button
+          <a href='https://weddingphotostudio.netlify.app/contact'><button 
                   type="submit"
                   className="btn text-white"
                   style={{ background: "rgb(221 128 33 / 90%)" ,margin:'20px',width:'90px' }}
                 >
                   Contact
-                </button>
+                </button></a>
                 </div>
       </div>
     </div>
