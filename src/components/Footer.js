@@ -5,7 +5,7 @@ import { MdCameraswitch } from "react-icons/md";
 function Footer() {
   return (
     <footer
-      className="text-center text-lg-start text-light"
+      className="text-center text-lg-center text-light"
       style={{
         backgroundColor: "#1c1c1c",
         padding: "50px 20px",
@@ -13,7 +13,7 @@ function Footer() {
       }}
     >
       <div className="container">
-        <div className="row g-4 justify-content-center text-md-start text-center">
+        <div className="row g-4 justify-content-center text-md-center text-center">
           {/* Left Section */}
           <div className="col-md-4">
             <h3
@@ -51,12 +51,13 @@ function Footer() {
           </div>
 
           {/* Middle Section */}
-          <div className="col-md-4">
+          <div className="col-md-4" style={{}}>
             <h3
               style={{
                 color: "rgb(221 128 33 / 90%)",
                 fontFamily: "Times New Roman",
                 marginBottom: "15px",
+               
               }}
             >
               Services

@@ -10,7 +10,7 @@ function Booknow() {
             color: 'rgb(221 128 33 / 90%)',
             fontFamily: 'Times New Roman',
             fontSize: '40px',
-            marginTop: '90px',
+            marginTop: '120px',
           }}
         >
           Book a Session
@@ -20,8 +20,15 @@ function Booknow() {
         <p className="text-center mb-5 fs-5 px-3 " >
           Fill out the form below to book a photography session or event management service
         </p>
-        <div className="container bg-white p-4 p-md-5 rounded shadow-sm mt-5" style={{border:'2px solid black',marginBottom:'30px'}}>
-          <form  className='text-left'>
+        <div className="container bg-white p-4 p-md-5 rounded shadow-lg mt-5" style={{
+          marginBottom:'30px',
+          boxShadow:'10px'
+          }}>
+          <form  style={{textAlign:'left',}}>
+            <div className="mb-6" style={{textAlign:'center',marginBottom:'30px'}}>
+              <h3>Booking Request</h3>
+              <p>Please provide the details for your booking. We'll contact you to confirm availability and discuss your requirements.</p>
+            </div>
             <div className="mb-3">
               <label  className="form-label">Full Name</label>
               <input type="text" className="form-control" name="fullname" id="fullname" placeholder="Enter your full name" required="" />
@@ -32,7 +39,7 @@ function Booknow() {
             </div>
             <div className="row">
               <label  className="form-label">Phone</label>
-              <input className="form-control" placeholder="+91" required="" />
+              <input type='phone' className="form-control" placeholder="+91" required="" />
             </div>
             <div className="row">
               <div className="col-md-6 mb-3">
@@ -52,13 +59,6 @@ function Booknow() {
                 </select>
               </div>
             </div>
-            <div className="form-check mb-4">
-              <input className="form-check-input" type="checkbox" id="terms" required="" />
-              <label className="form-check-label" for="terms">
-                I agree to the terms and conditions
-              </label>
-            </div>
-
             <div className="d-grid col-md-6 mx-auto">
               <button
                   className="btn text-white w-100"
