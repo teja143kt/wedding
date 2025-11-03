@@ -137,6 +137,22 @@ function Services() {
           </div>
         ))}
       </div>
+
+
+      {/* booking section redirecter */}
+
+      <section className="py-20 mt-4">
+        <div className="container  text-center ">
+          <h2 className="mb-6" style={{
+            color: "rgb(221 128 33 / 90%)",
+            fontFamily: 'Times New Roman',
+          }}>Ready to Book Your Session?</h2>
+          <div className=" justify-center gap-4">
+            <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 60%)", margin: '10px' }}><Link class="btn " to="/booknow" >Book a Session</Link></button>
+            <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 60%)", margin: '10px' }}><Link class="btn" to="/contact">Contact Us</Link></button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

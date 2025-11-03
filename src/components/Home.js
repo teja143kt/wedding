@@ -102,53 +102,112 @@ function Home() {
         </div>
       </section>
 
-      {/* About Heaven Photo Street */}
-      {/* <div className='row-12'>
-        <h3>About Heaven Photo Street</h3>
-        <div className='col-md-6'>
-          <p>We are a passionate team of photographers and event managers dedicated to capturing and creating beautiful moments. With years of experience in the industry, we pride ourselves on delivering exceptional quality and service to our clients.</p>
-          <p>Our mission is to transform ordinary moments into extraordinary memories through our creative photography and meticulous event planning. We believe that every client is unique, and we tailor our services to meet your specific needs and preferences.</p>
-          <div className='row flex flex-col sm:flex-row justify-center gap-4 '>
-            <div className=''>
-              <h4>Professional Quality</h4>
-              <p>State-of-the-art equipment and techniques</p>
+      {/* About  wedding photostudio */}
+
+      <section className="container my-5">
+        <h2 className="mb-3 text-center " style={{ textAlign: 'center',fontFamily:'times new romen',color:'rgb(221 128 33 / 90%)' }}>About  wedding photostudio</h2>
+        <div className="row align-items-center">
+          {/* Left Side - Text Section */}
+          <div className="col-lg-6 col-md-12 mb-4">
+            <p className="text-muted">
+              We are a passionate team of photographers and event managers dedicated to capturing and creating
+              beautiful moments. With years of experience in the industry, we pride ourselves on delivering
+              exceptional quality and service to our clients.
+            </p>
+            <p className="text-muted">
+              Our mission is to transform ordinary moments into extraordinary memories through our creative
+              photography and meticulous event planning. We believe that every client is unique, and we tailor
+              our services to meet your specific needs and preferences.
+            </p>
+
+            <div className="row mt-4">
+              <div className="col-6 col-md-6 mb-3 ">
+                <h5 className="fw-bold" style={{color:'rgb(221 128 33 / 90%)' }}>Professional Quality</h5>
+                <p className="small text-muted">State-of-the-art equipment and techniques</p>
+              </div>
+              <div className="col-6 col-md-6 mb-3 ">
+                <h5 className="fw-bold"  style={{color:'rgb(221 128 33 / 90%)' }}>Experienced Team</h5>
+                <p className="small text-muted">Years of industry expertise</p>
+              </div>
+              <div className="col-6 col-md-6 mb-3 ">
+                <h5 className="fw-bold"  style={{color:'rgb(221 128 33 / 90%)' }}>Client Focused</h5>
+                <p className="small text-muted">Personalized service for every client</p>
+              </div>
+              <div className="col-6 col-md-6 mb-3 ">
+                <h5 className="fw-bold"  style={{color:'rgb(221 128 33 / 90%)' }}>Timely Delivery</h5>
+                <p className="small text-muted">Quick turnaround on all projects</p>
+              </div>
             </div>
-            <div>
-              <h4>Experienced Team</h4>
-              <p>Years of industry expertise</p>
-            </div>
-            <div>
-              <h4>Client Focused</h4>
-              <p>Personalized service for every client</p>
-            </div>
-            <div>
-              <h4>Timely Delivery</h4>
-              <p>Quick turnaround on all projects</p>
+          </div>
+
+          {/* Right Side - Image Grid */}
+          <div className="col-lg-6 col-md-12">
+            <div className="row g-3">
+              <div className="col-6">
+                <img
+                  src="https://cdn0.weddingwire.in/article/3713/3_2/1280/jpg/63173-marriage-images-rituals-wedding-photography-lead-image.webp"
+                  alt="Studio"
+                  className="img-fluid rounded shadow-sm"
+                  style={{ height: '200px', }}
+                />
+              </div>
+              <div className="col-6">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/12.JPG-20SmJ3FlWqZwqOiOcYe4vq40Vk5GCi.jpeg"
+                  alt="Outdoor"
+                  className="img-fluid rounded shadow-sm"
+                  style={{ height: '200px', marginBottom: '10px' }}
+                />
+              </div>
+              <div className="col-6">
+                <img
+
+                  src="https://i.ytimg.com/vi/Ht0yqiH7Vg8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAs4LUVYn_E4ZacRxXNwDEb48BDMw"
+
+                  alt="Wedding"
+                  className="img-fluid rounded shadow-sm"
+                  style={{ height: '200px', width: '300px', marginBottom: '40px' }}
+                />
+              </div>
+              <div className="col-6">
+                <img
+                  src="https://i.pinimg.com/originals/8d/39/70/8d3970a7eb83cafd57161cb5a4be2ecb.jpg"
+                  alt="Event"
+                  className="img-fluid rounded shadow-sm"
+                  style={{ height: '200px', width: '300px', }}
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div className=''>
-            <div>
-              <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0cKaRI7M9mPEygZjZJBk9anNXCjlbviKhXCJPsd0YWlnnZhUt6bo3HGM_sEuZhjyBi0&usqp=CAU' alt='hii'></img>
-            </div>
-        </div>
-      </div>
-       */}
+      </section>
+
+
+
+
       {/* booking section */}
 
-      {/* <section className="py-20 ">
-        <div className="container  text-center">
+      <section className="py-20 ">
+        <div className="container  text-center shadow-lg" style={{
+          height: '300px',
+          background: "rgb(221 128 33 / 15%)",
+          borderRadius: '20px',
+          display: 'flex',
+          alignItems: "center",
+          justifyContent: 'center'
+        }}>
           <h2 className="mb-6" style={{
             color: "rgb(221 128 33 / 90%)",
-             fontFamily: 'Times New Roman',
-            }}>Ready to Book Your Session?</h2>
-          <p className="  mb-8">Contact us today to schedule your photography session or event planning consultation.</p>
+            fontFamily: 'Times New Roman',
+          }}>Ready to Book Your Session?</h2>
+
           <div className=" justify-center gap-4">
-            <button><Link class=" " to="/booknow">Book a Session</Link></button>
-            <button><Link class="" to="/contact">Contact Us</Link></button>
+            <p className="mt-3  mb-8 ">Contact us today to schedule your photography session or event planning consultation.</p>
+            <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 70%)", margin: '10px' }}><Link class="btn " to="/booknow" >Book a Session</Link></button>
+            <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 70%)", margin: '10px' }}><Link class="btn" to="/contact">Contact Us</Link></button>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Album Section */}
       <section className="container text-center my-5">

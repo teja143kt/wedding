@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Aboutus() {
   return (
@@ -10,8 +11,8 @@ function Aboutus() {
           <h2
             className="fw-bold"
             style={{
-                marginTop:'120px',
-                fontSize:'40px',
+              marginTop: '120px',
+              fontSize: '40px',
               color: "rgb(221 128 33 / 90%)",
               fontFamily: "Times New Roman",
             }}
@@ -89,7 +90,7 @@ function Aboutus() {
         {/* Video 1 */}
         <div className="row align-items-center mb-5" >
           <div className="col-12 col-md-6">
-            <div style={{boxShadow:'10px 10px 20px'}} className="ratio ratio-16x9 shadow-lg rounded overflow-hidden" >
+            <div style={{ boxShadow: '10px 10px 20px' }} className="ratio ratio-16x9 shadow-lg rounded overflow-hidden" >
               <iframe
                 src="https://www.youtube.com/embed/dF5XY1by5jQ"
                 title="Wedding Film 1"
@@ -111,7 +112,7 @@ function Aboutus() {
           <div className="col-12 col-md-6" >
             <div className="ratio ratio-16x9 shadow-lg rounded overflow-hidden" >
               <iframe
-                
+
                 src="https://www.youtube.com/embed/CGC1_bhypkU"
                 title="Wedding Film 2"
                 allowFullScreen
@@ -126,6 +127,22 @@ function Aboutus() {
             </p>
           </div>
         </div>
+
+        {/* booking section redirecter */}
+        
+        <section className="py-20 ">
+          <div className="container  text-center ">
+            <h2 className="mb-6" style={{
+              color: "rgb(221 128 33 / 90%)",
+              fontFamily: 'Times New Roman',
+            }}>Ready to Book Your Session?</h2>
+            <div className=" justify-center gap-4">
+              <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 60%)", margin: '10px' }}><Link class="btn " to="/booknow" >Book a Session</Link></button>
+              <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 60%)", margin: '10px' }}><Link class="btn" to="/contact">Contact Us</Link></button>
+            </div>
+          </div>
+        </section>
+
       </section>
     </div>
   );

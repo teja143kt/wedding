@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 function Albums() {
@@ -19,6 +20,12 @@ function Albums() {
     "https://i.pinimg.com/736x/01/8f/a8/018fa843f526995569b8955f410e4872.jpg",
     "https://img.freepik.com/premium-photo/indian-traditional-wedding-ceremony-decorative-puja-thali_54391-1944.jpg",
     "https://img.freepik.com/premium-photo/indian-wedding-bridel-enter-first-time-home-griha-pravesh-means-house-warming-ceremony_898049-146.jpg",
+    "https://images.prismic.io/memoriesdesigner/Z6SqJJbqstJ9-S4y_Zo_H5B5LeNNTxCAJ__ACP7038.avif?auto=format,compress&rect=0,0,1500,1001&w=4000&h=667",
+    "https://zerogravity.photography/wp-content/uploads/2025/08/NARE7834_webp-1000x667.webp",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsDcLSv2A0NEYhcmxT2NzuqTAs2u9rPL-7dg&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ_T_S9sgjRKCd3JQJf2o2O9laBCgopd2Qg2MZZfQ7Hcu7zl5U7LaN_82jt5sEyL9fQys&usqp=CAU",
+    "https://i0.wp.com/whatisheybailsdoing.com/wp-content/uploads/2024/02/HOS_1933-1024x683.jpg?resize=1024%2C683&ssl=1",
+
   ];
 
   return (
@@ -78,6 +85,22 @@ function Albums() {
           </div>
         ))}
       </div>
+
+       {/* booking section redirecter */}
+
+      <section className="py-20 mt-4">
+        <div className="container  text-center ">
+          <h2 className="mb-6" style={{
+            color: "rgb(221 128 33 / 90%)",
+            fontFamily: 'Times New Roman',
+          }}>Ready to Book Your Session?</h2>
+          <div className=" justify-center gap-4">
+            <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 60%)", margin: '10px' }}><Link class="btn " to="/booknow" >Book a Session</Link></button>
+            <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 60%)", margin: '10px' }}><Link class="btn" to="/contact">Contact Us</Link></button>
+          </div>
+        </div>
+      </section>
+      
     </div>
   );
 }
