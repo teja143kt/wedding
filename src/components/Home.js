@@ -196,13 +196,14 @@ function Home() {
           alignItems: "center",
           justifyContent: 'center'
         }}>
-          <h2 className="mb-6" style={{
+          <h3 className="mb-6" style={{
             color: "rgb(221 128 33 / 90%)",
             fontFamily: 'Times New Roman',
-          }}>Ready to Book Your Session?</h2>
+            marginRight:'60px'
+          }}>Ready to Book Your Session?</h3>
 
           <div className=" justify-center gap-4">
-            <p className="mt-3  mb-8 ">Contact us today to schedule your photography session or event planning consultation.</p>
+            <p className="mt-1  ">Contact us today to schedule your photography session.</p>
             <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 70%)", margin: '10px' }}><Link class="btn " to="/booknow" >Book a Session</Link></button>
             <button style={{ border: 'none', borderRadius: '10px', color: 'white', background: "rgb(221 128 33 / 70%)", margin: '10px' }}><Link class="btn" to="/contact">Contact Us</Link></button>
           </div>
