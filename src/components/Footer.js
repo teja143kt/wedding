@@ -16,18 +16,19 @@ function Footer() {
       <div className="container">
         <div className="row g-4 justify-content-center text-md-center text-center">
           {/* Left Section */}
-          <div className="col-md-4">
+          <div className="col-md-4" style={{textAlign:'left' }}>
             <h3
               style={{
                 color: "rgb(221 128 33 / 90%)",
                 fontFamily: "Times New Roman",
                 marginBottom: "15px",
+                 
               }}
             >
-              <MdCameraswitch style={{ marginRight: "8px" }} />
+              <MdCameraswitch style={{ marginRight: "8px" ,}} />
               Wedding Photography
             </h3>
-            <p style={{ color: "#ccc" }}>
+            <p style={{ color: "#ccc", }}>
               Capturing your beautiful moments with creativity and care —
               turning every memory into a masterpiece.
             </p>
@@ -52,7 +53,7 @@ function Footer() {
           </div>
 
           {/* Middle Section */}
-          <div className="col-md-4" style={{}}>
+          <div className="col-md-3" style={{textAlign:'left',marginRight:'80px',marginLeft:"90px"}}>
             <h3
               style={{
                 color: "rgb(221 128 33 / 90%)",
@@ -64,7 +65,7 @@ function Footer() {
               Services
             </h3>
             <ul className="list-unstyled">
-              {["Engagement", "Puja", "Haldi", "Marriage", "Griha Pravesh", "Reception"].map(
+              {["Engagement photography", "Puja photography", "Haldi photography", "Marriage photography", "Griha Pravesh photography", "Reception photography"].map(
                 (service, index) => (
                   <li
                     
@@ -78,7 +79,7 @@ function Footer() {
                     onMouseOver={(e) => (e.target.style.color = "rgb(221 128 33 / 90%)")}
                     onMouseOut={(e) => (e.target.style.color = "#ccc")}
                   >
-                    <Link to="/services" style={{textDecoration:'none',color:'white'}}>{service} </Link>
+                    <Link to="/services" style={{textDecoration:'none',color:'white',}}>{service} </Link>
                     
                   </li>
                 )
@@ -87,7 +88,7 @@ function Footer() {
           </div>
 
           {/* Right Section */}
-          <div className="col-md-4">
+          <div className="col-md-3" style={{textAlign:'left'}}>
             <h3
               style={{
                 color: "rgb(221 128 33 / 90%)",
