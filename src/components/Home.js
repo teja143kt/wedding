@@ -7,7 +7,7 @@ function Home() {
     <div>
       {/* Hero Section */}
       <section id="home" className="d-flex justify-content-center align-items-center text-center home-bg">
-        <div className="text-white" style={{ fontFamily: 'times new romen' }}>
+        <div  style={{ fontFamily: 'times new romen' }}>
           <h1 className="display-4 fw-bold " style={{ marginTop: '380px', color: '#f49213ff', }}>Your Dream Wedding Awaits</h1>
           <p className="fs-1 " style={{ color: '#020202d9', }}>Artistic Wedding Photography</p>
         </div>
